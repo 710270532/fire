@@ -65,6 +65,7 @@ define(function(dom){
 			var opacity = 100;
 			var timer = null;
 			carousel.onmouseover = function(){
+				console.log("ss");
 		        window.clearInterval(timer);
 		    };
 		    carousel.onmouseout = function(){
@@ -103,7 +104,7 @@ define(function(dom){
 							window.clearInterval(animation);
 						}
 					},100);
-				},3000);
+				},4000);
 		    }
 			
 		}
