@@ -3,21 +3,6 @@
 @import "common","mixin","variable";
 @import "normalize";
 
-%clearfix{
-	*zoom:1;
-	clear:both;
-	overflow: hidden;
-	&:before,&:after {
-	    content:"";
-	    display: table;
-	}
-}
-%clearborder{
-	border: 0px;
-	outline:none;
-	border-radius: 0px;
-}
-
 .ui-carousel{
 	width:1402px;
 	height:438px;
@@ -47,7 +32,7 @@
 			ul{
 				width: (13+2)*5px;
 				margin:auto auto;
-				@extend %clearfix;
+				@include clearfix();
 				li{
 					float:left;
 					margin-left: 2px;
