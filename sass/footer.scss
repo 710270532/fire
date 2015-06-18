@@ -2,20 +2,21 @@
 
 @import "common","mixin","variable";
 
+
+html,body{
+	width:100%;
+	min-height:100%;
+	@include box-sizing(border-box);
+}
 footer{
 	width:1402px;
 	height:82px;
 	background:#1e1e1e;
 	position:relative;
 	bottom:0px;
-	left:50%;
-	margin-left:-701px;
 	p{
 		color:#ffffff;
-		font:{
-			size:12px;
-			family:$font-family; 
-		}
+		font:12px $font-family;
 		line-height: 14px;
 		text-align: center;
 		&.footer-icp{
