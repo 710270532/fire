@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+//盒布局
+@mixin box-sizing($box-sizing:content-box){
+	box-sizing:$box-sizing;
+	-moz-box-sizing:$box-sizing;
+	-webkit-box-sizing:$box-sizing;
+}
+
+//清除浮动
+@mixin clearfix{
+	*zoom:1;
+	clear:both;
+	overflow: hidden;
+	&:before,&:after {
+	    content:"";
+	    display: table;
+	}
+}
+
+//清除border
+@mixin clearborder{
+	border: 0px;
+	outline:none;
+	border-radius: 0px;
+}
+
+//圆角
+@mixin border-radius($position:null,$radius:50%){
+	@if $position == top-left{
+		-webkit-border-top-left-radius:$radius;
+	  	-moz-border-radius-topleft:$radius;
+	  	border-top-left-radius:$radius;
+	}@else if $position == top-right{
+		-webkit-border-top-right-radius:$radius;
+	  	-moz-border-radius-topright:$radius;
+	  	border-top-right-radius:$radius;
+	}@else if $position == bottom-left{
+		-webkit-border-bottom-left-radius:$radius;
+	  	-moz-border-radius-bottomleft:$radius;
+	  	border-bottom-left-radius:$radius;
+	}@else if $position == bottom-right{
+		-webkit-border-bottom-right-radius:$radius;
+	  	-moz-border-radius-bottomright:$radius;
+	  	border-bottom-right-radius:$radius;
+	}@else{
+		-webkit-border-radius:$radius;
+  		-moz-border-radius:$radius;
+  		border-radius:$radius;
+	}
+}
+//阴影
+@mixin box-shadow($shadow...){
+	@if length($shadow) >= 1 {
+		-webkit-box-shadow:$shadow;
+  		-moz-box-shadow:$shadow;
+  		box-shadow:$shadow;
+  	} @else{
+  		$shadow:1px 1px 1px rgba(0,0,0,0.5);
+  		-webkit-box-shadow:$shadow;
+  		-moz-box-shadow:$shadow;
+  		box-shadow:$shadow;
+  	}
+}
+
+//透明
+@mixin rgba($rgba:rgba(0,0,0,0.5)){
+	//只作用在当前元素
+	background: $rgba;
+}
+
+//透明
+@mixin opacity($opacity:0.5){
+	//会作用在子元素
+	opacity:$opacity;
+	filter: alpha(opacity=$opacity*100);
+}
+
+//flexbox居中
+@mixin center(){
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+}

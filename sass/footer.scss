@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+@import "common","mixin","variable";
+
+footer{
+	width:1402px;
+	height:82px;
+	background:#1e1e1e;
+	position:relative;
+	bottom:0px;
+	left:50%;
+	margin-left:-701px;
+	p{
+		color:#ffffff;
+		font:{
+			size:12px;
+			family:$font-family; 
+		}
+		line-height: 14px;
+		text-align: center;
+		&.footer-icp{
+			padding-top: 23px;
+		}
+		&.footer-copyright{
+			padding-top: 14px;
+		}
+	}
+
+}

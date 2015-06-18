@@ -1,0 +1,20 @@
+/* line 3, ../sass/common.scss */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 3, ../sass/common.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 3, ../sass/common.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 3, ../sass/common.scss */
+ul {
+  list-style: none;
+}
