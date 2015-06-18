@@ -30,15 +30,15 @@
 			position:absolute;
 			
 			ul{
-				width: (13+2)*5px;
+				width: (15+12)*5px;
 				margin:auto auto;
 				@include clearfix();
 				li{
 					float:left;
-					margin-left: 2px;
+					margin-left: 12px;
 					a{
-						width: 13px;
-						height: 13px;
+						width: 15px;
+						height: 15px;
 						background: url('../images/index/carousel/dot.png') no-repeat;
 						background-position:0px 0px;
 						display: block;

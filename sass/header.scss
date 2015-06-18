@@ -12,8 +12,10 @@ header{
 		background:#e54120;
 	}
 	.fire-navbar{
-		width: 100%;
+		width: 1402px;
 		height: 60px;
+		position: absolute;
+		z-index: 1;
 		@include rgba(rgba(0,0,0,0.5));
 		.logo{
 			float: left;
