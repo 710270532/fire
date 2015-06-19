@@ -60,7 +60,7 @@ require.config({
         }
     }
 });
-require(['jquery','js/init/carousel'],function($,carousel){
+require(['jquery','js/init/carousel','js/init/html5'],function($,carousel,html5){
     carousel.init();
 },function(e){
     console.log("【首页】模块js加载失败");
