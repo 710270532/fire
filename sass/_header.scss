@@ -1,7 +1,7 @@
 @charset "utf-8";
 
-@import "common","mixin","variable";
-@import "normalize";
+@import "normalize","common";
+@import "mixin","variable";
 
 header{
 	width:1402px;
@@ -36,7 +36,7 @@ header{
 				background:url('../images/index/logo.png') no-repeat;
 			}
 			ul{
-				float: right;
+				float: left;
 				margin-left: 261+47px;
 				li{
 					float: left;

@@ -1,7 +1,7 @@
 @charset "utf-8";
 
-@import "common","mixin","variable";
-@import "normalize";
+@import "normalize","common";
+@import "mixin","variable";
 
 html,body{
 	width:100%;
