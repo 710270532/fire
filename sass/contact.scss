@@ -1,5 +1,81 @@
 @charset "utf-8";
 
 @import "normalize","common";
-@import "mixin","variable";
+@import "mixin","variable","icon";
 @import "header","footer";
+
+.fire-contact-header{
+	width:1402px;
+	height:368+41px;
+	margin:auto auto;
+	position: relative;
+	.fire-contact-header-img{
+		left:50%;
+		width:1402px;
+		margin-top:41px;
+		margin-left:-701px;
+		position:absolute;
+		z-index:-2;
+		img{
+			width: 100%;
+			height: 368px;
+		}
+		.contactus{
+			top: 227+60px;
+			left: 433+156+219px;
+			width: 360px;
+			height: 48px;
+			background:url('../images/contact/contactus.png') no-repeat;
+			position:absolute;
+			z-index:2;
+		}
+	}
+}
+.fire-contact-container{
+	width:1402px;
+	margin:auto auto;
+	@at-root{
+		.fire-contact-address{
+			width: 100%;
+			height: 304px;
+			background:#ffffff;
+			margin:auto auto;
+			overflow: hidden;
+			.address-group{
+				margin-top: 86px;
+				margin-left: 433+156+219+65px;
+				h3{
+					color:#232323;
+					font:18px/1em $font-family;
+				}
+				ul{
+					margin-top: 22px;
+					li{
+						@include clearfix();
+						span{
+							float: left;
+							width: 15px;
+							height: 22px;
+							margin-top: 4px;
+							display: block;
+						}
+						div{
+							float: left;
+							margin-left: 18px;
+							color:#232323;
+							font:14px/30px $font-family;
+							&.red{
+								color: #e54120;
+							}
+						}
+					}
+				}
+			}
+		}
+		.fire-contact-map{
+			margin:auto auto;
+			border-bottom: 238px solid #e3e3e3;
+			display: block;
+		}
+	}
+}

@@ -1,0 +1,13 @@
+//html5语义化标签识别（css同时定义display：block;）
+document.createElement('article');
+document.createElement('aside');
+document.createElement('details');
+document.createElement('figcaption');
+document.createElement('figure');
+document.createElement('header');
+document.createElement('footer');
+document.createElement('hgroup');
+document.createElement('main');
+document.createElement('nav');
+document.createElement('section');
+document.createElement('summary');

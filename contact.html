@@ -27,31 +27,19 @@
 		<link rel="bookmark" type="image/x-icon" href="images/favicon.ico"/>
 		<link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
 		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
-		
-		<script>
-			document.createElement('article');
-			document.createElement('aside');
-			document.createElement('details');
-			document.createElement('figcaption');
-			document.createElement('figure');
-			document.createElement('header');
-			document.createElement('footer');
-			document.createElement('hgroup');
-			document.createElement('main');
-			document.createElement('nav');
-			document.createElement('section');
-			document.createElement('summary');
-　　	</script>
 
 		<!--css-->
 		<link rel="stylesheet" type="text/css" href="css/contact.css"/>
-		
 		<!-- js -->
 	 	<script data-main="js/modules/main" src="lib/require/require.js" defer async="true"></script>
+	 	<!--[if lte IE 8]>
+              <script type="text/javascript" src="js/ie.js"></script>
+        <![endif]-->
 	</head>
 	<body>
 		<header>
 			<div class="fire-topbar"></div>
+			<div class="fire-navbar-background"></div>
 			<div class="fire-navbar">
 				<div class="logo"></div>
 				<ul>
@@ -62,7 +50,36 @@
 				</ul>
 			</div>
 		</header>
-		<div style="width:100%;height:100%;"></div>
+		<div class="fire-contact-header">
+			<div class="fire-contact-header-img">
+				<img src="images/contact/lianxiwomen_bg_pic01.png" alt="烈焰畅游"/>
+				<div class="contactus"></div>
+			</div>
+		</div>
+
+		<div class="fire-contact-container">
+			<div class="fire-contact-address">
+				<div class="address-group">
+					<h3>我们的地址</h3>
+					<ul>
+						<li>
+							<span class="icon-address"></span>
+							<div>北京市海淀区中关村E世界C座503</div>
+						</li>
+						<li>
+							<span class="icon-tel"></span>
+							<div>8610 82600175</div>
+						</li>
+						<li>
+							<span class="icon-email"></span>
+							<div class="red">service@cloudacc-inc.com</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<img class="fire-contact-map" src="images/contact/lianxiwomen_map.png" alt="烈焰畅游"/>
+		</div>
+
 		<footer>
 			<div>
 				<p class="footer-icp">京ICP证:050016号《网络文化经营许可证》编号:京网文[2011]0782-287号《网络监听许可证》编号:0110587京公网安备110105019888号</p>

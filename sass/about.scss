@@ -3,3 +3,144 @@
 @import "normalize","common";
 @import "mixin","variable";
 @import "header","footer";
+
+.fire-about-header{
+	width:1402px;
+	height:335+41px;
+	margin:auto auto;
+	position: relative;
+	.fire-about-header-img{
+		left:50%;
+		width:1402px;
+		margin-top:41px;
+		margin-left:-701px;
+		position:absolute;
+		z-index:-2;
+		img{
+			width: 100%;
+			height: 335px;
+		}
+		.aboutfire{
+			top: 164+60px;
+			left: 238px;
+			width: 302px;
+			height: 48px;
+			background:url('../images/about/aboutfire.png') no-repeat;
+			position:absolute;
+			z-index:2;
+		}
+	}
+}
+.fire-about-container{
+	width:1402px;
+	margin:auto auto;
+	@at-root{
+		.fire-about-dowhat{
+			width: 100%;
+			height:385px;
+			background: #ffffff;
+			overflow: hidden;
+			.fire-about-dowhat-logo{
+				width: 302px;
+				height: 58px;
+				margin:auto auto;
+				margin-top: 67px;
+				background:url('../images/about/fire-about-dowhat-logo.png') no-repeat;
+			}
+			.fire-about-dowhat-font{
+				width: 800px;
+				margin:auto auto;
+				margin-top: 65px;
+				p{
+					color:#2e2e2e;
+					font:18px/28px $font-family;
+					text-align: center;
+				}
+			}
+		}
+		.fire-about-it{
+			width: 100%;
+			height:685px;
+			background: #efefef;
+			overflow: hidden;
+			.fire-about-it-logo{
+				width: 302px;
+				height: 58px;
+				margin:auto auto;
+				margin-top: 67px;
+				background:url('../images/about/fire-about-it-logo.png') no-repeat;
+			}
+			.fire-about-it-font{
+				width: 1000px;
+				margin:auto auto;
+				margin-top: 89px;
+				p{
+					color:#2e2e2e;
+					font:18px/28px $font-family;
+					text-align: center;
+				}
+			}
+		}
+		.fire-about-sense{
+			width: 100%;
+			height:527px;
+			background: #e54120;
+			overflow: hidden;
+			h2{
+				margin-top: 76px;
+				color:#ffffff;
+				font:30px/1em $font-family;
+				text-align: center;
+			}
+			.fire-about-sense-center{
+				width: (85+217)*3-217px;
+				margin:auto auto;
+				ul{
+					width: (85+217)*3px;
+					margin-left: -217px;
+					@include clearfix();
+					li{
+						float:left;
+						width: 85px;
+						margin-top: 100px;
+						margin-left: 217px;
+						&.healthy{
+							.icon{
+								width: 85px;
+								height: 62px;
+								background: url('../images/about/guanyulieyan_ico_healthy.png') no-repeat;
+								background-size: 85px 62px;
+							}
+							.chinese{
+								margin-top: 57px;
+								color:#ffffff;
+								font:24px/1em $font-family;
+								text-align: center;
+							}
+							.english{
+								margin-top: 14px;
+								color:#f2b7ab;
+								font:18px/1em $font-family;
+								text-align: center;
+							}
+						}
+						&.passion{
+							@extend .healthy;
+							.icon{
+								background: url('../images/about/guanyulieyan_ico_passion.png') no-repeat;
+								background-size: 85px 62px;
+							}
+						}
+						&.dream{
+							@extend .healthy;
+							.icon{
+								background: url('../images/about/guanyulieyan_ico_dream.png') no-repeat;
+								background-size: 85px 62px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

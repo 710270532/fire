@@ -3,3 +3,77 @@
 @import "normalize","common";
 @import "mixin","variable";
 @import "header","footer";
+
+.fire-hiring-header{
+	width:1402px;
+	height:335+41px;
+	margin:auto auto;
+	position: relative;
+	.fire-hiring-header-img{
+		left:50%;
+		width:1402px;
+		margin-top:41px;
+		margin-left:-701px;
+		position:absolute;
+		z-index:-2;
+		img{
+			width: 100%;
+			height: 335px;
+		}
+		.iwantyou{
+			top: 164+60px;
+			left: 238px;
+			width: 393px;
+			height: 48px;
+			background:url('../images/hiring/iwantyou.png') no-repeat;
+			position:absolute;
+			z-index:2;
+		}
+	}
+}
+
+.fire-container{
+	width:1402px;
+	margin:auto auto;
+	@at-root{
+		.fire-hiring-detail{
+			width: 100%;
+			height:463px;
+			background: #ffffff;
+		}
+		.fire-hiring-workspace{
+			width: 100%;
+			height:1091px;
+			background: #efefef;
+			overflow: hidden;
+			.hiring-workspace-logo{
+				width: 302px;
+				height: 58px;
+				margin:auto auto;
+				margin-top: 67px;
+				background:url('../images/hiring/hiring-workspace-logo.png') no-repeat;
+			}
+			img{
+				width: 799px;
+				height: 798px;
+				margin:auto auto;
+				margin-top: 64px;
+				display: block;
+			}
+		}
+		.fire-hiring-list{
+			width: 100%;
+			height:874px;
+			background: #ffffff;
+			border-bottom: 46px solid #e54120;
+			overflow: hidden;
+			.hiring-list-logo{
+				width: 302px;
+				height: 58px;
+				margin:auto auto;
+				margin-top: 79px;
+				background:url('../images/hiring/hiring-list-logo.png') no-repeat;
+			}
+		}
+	}
+}

@@ -30,24 +30,11 @@
 
 		<!--css-->
 		<link rel="stylesheet" type="text/css" href="css/index.css"/>
-
-		<script>
-			document.createElement('article');
-			document.createElement('aside');
-			document.createElement('details');
-			document.createElement('figcaption');
-			document.createElement('figure');
-			document.createElement('header');
-			document.createElement('footer');
-			document.createElement('hgroup');
-			document.createElement('main');
-			document.createElement('nav');
-			document.createElement('section');
-			document.createElement('summary');
-　　	</script>
-
 		<!-- js -->
 	 	<script data-main="js/modules/main" src="lib/require/require.js" defer async="true"></script>
+		<!--[if lte IE 8]>
+              <script type="text/javascript" src="js/ie.js"></script>
+        <![endif]-->
 	</head>
 	<body>
 		<header>
@@ -86,7 +73,7 @@
 				<a id="carousel-prev" class="ui-carousel-prev" href="javascript:void(0)"></a>
 				<a id="carousel-next" class="ui-carousel-next" href="javascript:void(0)"></a>
 			</div>
-			<img class="modern" src="images/index/hp_slogan.png" alt="烈焰畅游"/>
+			<div class="modern"></div>
 		</div>
 		
 
@@ -111,15 +98,17 @@
 
 
 			<div class="fire-show">
-				<div class="fire-show-product">
-					<div class="fire-show-product-item">
-						<img src="images/index/wallpaper.jpg"/>
-					</div>
-					<div class="fire-show-product-item">
-						<img src="images/index/wallpaper.jpg"/>
-					</div>
-					<div class="fire-show-product-item">
-						<img src="images/index/wallpaper.jpg"/>
+				<div class="fire-show-container">
+					<div class="fire-show-product">
+						<div class="fire-show-product-item">
+							<img src="images/index/wallpaper.jpg"/>
+						</div>
+						<div class="fire-show-product-item">
+							<img src="images/index/wallpaper.jpg"/>
+						</div>
+						<div class="fire-show-product-item">
+							<img src="images/index/wallpaper.jpg"/>
+						</div>
 					</div>
 				</div>
 			</div>
