@@ -1,42 +1,55 @@
 @charset "utf-8";
-
-@import "normalize","common";
-@import "mixin","variable","icon";
-@import "header","footer";
+/**
+ *
+ *version------0.0.1
+ *author-------crazyz
+ *date---------2015-6-24
+ */
+@import "normalize","common","mixin","variable";
+@import "header","footer","icon";
 
 .fire-contact-header{
-	width:1402px;
+	width:100%;
+	min-width:1402px;
 	height:368+41px;
 	margin:auto auto;
 	position: relative;
-	.fire-contact-header-img{
-		left:50%;
-		width:1402px;
-		margin-top:41px;
-		margin-left:-701px;
-		position:absolute;
-		z-index:-2;
-		img{
+	overflow:hidden;
+	@at-root{
+		.fire-contact-header-img{
 			width: 100%;
-			height: 368px;
-		}
-		.contactus{
-			top: 227+60px;
-			left: 433+156+219px;
-			width: 360px;
-			height: 48px;
-			background:url('../images/contact/contactus.png') no-repeat;
+			margin-top:41px;
 			position:absolute;
-			z-index:2;
+			z-index:-2;
+			img{
+				width: 100%;
+				height: 368px;
+			}
+		}
+		.fire-contact-header-container{
+			width: 1402px;
+			margin:auto auto;
+			margin-top: 41px;
+			position:relative;
+			.contactus{
+				top: 227+60px;
+				left: 433+156+219px;
+				width: 360px;
+				height: 48px;
+				background:url('../images/contact/contactus.png') no-repeat;
+				position:absolute;
+				z-index:2;
+			}
 		}
 	}
 }
 .fire-contact-container{
-	width:1402px;
+	width:100%;
+	min-width:1200px;
 	margin:auto auto;
 	@at-root{
 		.fire-contact-address{
-			width: 100%;
+			width: 1402px;
 			height: 304px;
 			background:#ffffff;
 			margin:auto auto;
@@ -73,6 +86,7 @@
 			}
 		}
 		.fire-contact-map{
+			width: 100%;
 			margin:auto auto;
 			border-bottom: 238px solid #e3e3e3;
 			display: block;

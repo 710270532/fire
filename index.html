@@ -40,18 +40,20 @@
 		<header>
 			<div class="fire-topbar"></div>
 			<div class="fire-navbar-background"></div>
-			<div class="fire-navbar">
-				<div class="logo"></div>
-				<ul>
-					<li><a href="index.html" class="active">首页</a></li>
-					<li><a href="about.html">关于烈焰</a></li>
-					<li><a href="hiring.html">招聘</a></li>
-					<li><a href="contact.html">联系我们</a></li>
-				</ul>
+			<div class="header-container">
+				<div class="fire-navbar">
+					<div class="logo"></div>
+					<ul>
+						<li><a href="index.html" class="active">首页</a></li>
+						<li><a href="about.html">关于烈焰</a></li>
+						<li><a href="hiring.html">招聘</a></li>
+						<li><a href="contact.html">联系我们</a></li>
+					</ul>
+				</div>
 			</div>
 		</header>
 
-		
+		<!--carousel start-->
 		<div id="carousel" class="ui-carousel">
 			<div class="ui-carousel-content">
 				<img src="images/index/carousel/background1.jpg" alt="图片轮播"/>
@@ -60,60 +62,68 @@
 				<img src="images/index/carousel/background4.jpg" alt="图片轮播"/>
 				<img src="images/index/carousel/background5.jpg" alt="图片轮播"/>
 			</div>
-			<div id="carousel-dot" class="ui-carousel-dot">
-				<ul>
-					<li><a></a></li>
-					<li><a></a></li>
-					<li><a></a></li>
-					<li><a></a></li>
-					<li><a></a></li>
-				</ul>
+			<div class="ui-carousel-group">
+				<div id="carousel-dot" class="ui-carousel-dot">
+					<ul>
+						<li><a></a></li>
+						<li><a></a></li>
+						<li><a></a></li>
+						<li><a></a></li>
+						<li><a></a></li>
+					</ul>
+				</div>
+				<div class="ui-carousel-button">
+					<a id="carousel-prev" class="ui-carousel-prev" href="javascript:void(0)"></a>
+					<a id="carousel-next" class="ui-carousel-next" href="javascript:void(0)"></a>
+				</div>
+				<div class="modern"></div>
 			</div>
-			<div class="ui-carousel-button">
-				<a id="carousel-prev" class="ui-carousel-prev" href="javascript:void(0)"></a>
-				<a id="carousel-next" class="ui-carousel-next" href="javascript:void(0)"></a>
-			</div>
-			<div class="modern"></div>
 		</div>
-		
+		<!--carousel end-->
 
+		<!--container start-->
 		<div class="fire-container">
-			<div class="fire-aboutfire">
-				<div class="fire-aboutfire-group">
-					<div class="aboutfire">
-						<h2>关于烈焰畅游</h2>
-						<p>烈焰游戏是一家以高性能，高扩展性的分布式web application为基础，配合与服务器网络为游戏玩家提供重度、强交互、增强现实游戏体验的新型游戏公司。</p>
+			<!--about start-->
+			<div class="fire-about">
+				<div class="fire-about-container">
+					<div class="fire-about-font">
+						<div class="about">
+							<h2>关于烈焰畅游</h2>
+							<p>烈焰游戏是一家以高性能，高扩展性的分布式web application为基础，配合与服务器网络为游戏玩家提供重度、强交互、增强现实游戏体验的新型游戏公司。</p>
+						</div>
+						<div class="dowhat">
+							<div class="dowhat-color"></div>
+							<div class="dowhat-font">
+								<p>烈焰畅游在做什么</p>
+								<p>通过探索提升可访问性的创新技术，烈焰把饱满重度的游戏体验原汁原味的放在您的一击之遥。</p>
+							</div>
+						</div>
+						<div class="detail"></div>
 					</div>
-					<div class="dowhat">
-						<div class="dowhat-color"></div>
-						<div class="dowhat-font">
-							<p>烈焰畅游在做什么</p>
-							<p>通过探索提升可访问性的创新技术，烈焰把饱满重度的游戏体验原汁原味的放在您的一击之遥。</p>
-						</div>
-					</div>
-					<div class="detail"></div>
-				</div>
-				<div class="workspace"></div>
-			</div>
-
-
-			<div class="fire-show">
-				<div class="fire-show-container">
-					<div class="fire-show-product">
-						<div class="fire-show-product-item">
-							<img src="images/index/wallpaper.jpg"/>
-						</div>
-						<div class="fire-show-product-item">
-							<img src="images/index/wallpaper.jpg"/>
-						</div>
-						<div class="fire-show-product-item">
-							<img src="images/index/wallpaper.jpg"/>
-						</div>
-					</div>
+					<div class="fire-about-img"></div>
 				</div>
 			</div>
+			<!--about end-->
 
+			<!--product start-->
+			<div class="fire-product">
+				<div class="fire-product-container">
+					<ul>
+						<li>
+							<img src="images/index/wallpaper.jpg"/>
+						</li>
+						<li>
+							<img src="images/index/wallpaper.jpg"/>
+						</li>
+						<li>
+							<img src="images/index/wallpaper.jpg"/>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--product end-->
 
+			<!--hiring start-->
 			<div class="fire-hiring">
 				<div class="hiring-logo"></div>
 				<div class="hiring-deatil">
@@ -125,7 +135,9 @@
 					</ul>
 				</div>
 			</div>
+			<!--hiring end-->
 		</div>
+		<!--container end-->
 
 		<footer>
 			<div>

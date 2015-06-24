@@ -1,62 +1,71 @@
 @charset "utf-8";
-
-@import "normalize","common";
-@import "mixin","variable";
+/**
+ *
+ *version------0.0.1
+ *author-------crazyz
+ *date---------2015-6-24
+ */
+@import "normalize","common","mixin","variable";
 
 header{
-	width:1402px;
-	margin:auto auto;
+	width:100%;
+	min-width:1402px;
 	margin-bottom:-41px;
+	position:relative;
 	@at-root{
 		.fire-topbar{
-			width: 1402px;
+			width:100%;
 			height: 41px;
 			background:#e54120;
 		}
 		.fire-navbar-background{
-			width: 1402px;
+			width:100%;
 			height: 60px;
 			position: absolute;
 			z-index: 1;
 			@include rgba(0.5);
 		}
-		.fire-navbar{
+		.header-container{
 			width: 1402px;
-			height: 60px;
-			position: absolute;
-			z-index: 2;
-			@include clearfix();
-			.logo{
-				float: left;
-				width: 156px;
-				height: 36px;
-				margin-top: 11px;
-				margin-bottom: 13px;
-				margin-left: 219px;
-				background:url('../images/index/logo.png') no-repeat;
-			}
-			ul{
-				float: left;
-				margin-left: 261+47px;
-				li{
+			margin:auto auto;
+			.fire-navbar{
+				width:100%;
+				height: 60px;
+				position: absolute;
+				z-index: 2;
+				@include clearfix();
+				.logo{
 					float: left;
-					margin-left: -47px;
-					a{
-						width: 165px;
-						height: 60px;
-						color:#b3b3b3;
-						font:14px $font-family;
-						line-height: 60px;
-						text-align: center;
-						&:hover{
-							color: #e54120;
+					width: 156px;
+					height: 36px;
+					margin-top: 11px;
+					margin-bottom: 13px;
+					margin-left: 219px;
+					background:url('../images/index/logo.png') no-repeat;
+				}
+				ul{
+					float: left;
+					margin-left: 261+47px;
+					li{
+						float: left;
+						margin-left: -47px;
+						a{
+							width: 165px;
+							height: 60px;
+							color:#b3b3b3;
+							font:14px $font-family;
+							line-height: 60px;
+							text-align: center;
+							&:hover{
+								color: #e54120;
+							}
+							&.active{
+								color: #ffffff;
+								background:url('../images/index/hp_nav_btn.png') no-repeat;
+								background-size:157px 60px;
+							}
+							display: block;
 						}
-						&.active{
-							color: #ffffff;
-							background:url('../images/index/hp_nav_btn.png') no-repeat;
-							background-size:157px 60px;
-						}
-						display: block;
 					}
 				}
 			}

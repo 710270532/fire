@@ -1,46 +1,130 @@
 @charset "utf-8";
-
-@import "normalize","common";
-@import "mixin","variable";
+/**
+ *
+ *version------0.0.1
+ *author-------crazyz
+ *date---------2015-6-24
+ */
+@import "normalize","common","mixin","variable";
 @import "header","footer";
 
 .fire-hiring-header{
-	width:1402px;
+	width:100%;
+	min-width:1402px;
 	height:335+41px;
 	margin:auto auto;
 	position: relative;
-	.fire-hiring-header-img{
-		left:50%;
-		width:1402px;
-		margin-top:41px;
-		margin-left:-701px;
-		position:absolute;
-		z-index:-2;
-		img{
-			width: 100%;
-			height: 335px;
-		}
-		.iwantyou{
-			top: 164+60px;
-			left: 238px;
-			width: 393px;
-			height: 48px;
-			background:url('../images/hiring/iwantyou.png') no-repeat;
+	overflow:hidden;
+	@at-root{
+		.fire-hiring-header-img{
+			width:100%;
+			margin-top:41px;
 			position:absolute;
-			z-index:2;
+			z-index:-2;
+			img{
+				width: 100%;
+				min-width:1180px;
+				height: 335px;
+			}
+		}
+		.fire-hiring-header-container{
+			width: 1402px;
+			height: 335px;
+			margin:auto auto;
+			margin-top:41px;
+			position: relative;
+			.iwantyou{
+				top: 164+60px;
+				left: 238px;
+				width: 393px;
+				height: 48px;
+				background:url('../images/hiring/iwantyou.png') no-repeat;
+				position:absolute;
+				z-index:2;
+			}
 		}
 	}
 }
 
 .fire-container{
-	width:1402px;
+	width:100%;
+	min-width:1200px;
 	margin:auto auto;
 	@at-root{
 		.fire-hiring-detail{
 			width: 100%;
 			height:463px;
 			background: #ffffff;
+			overflow: hidden;
+			h2{
+				margin-top: 58px;
+				color:#232323;
+				font:24px/1em $font-family;
+				text-align: center;
+			}
+			.fire-hiring-detail-center{
+				width: (83+210)*4-83px;
+				margin:auto auto;
+				ul{
+					width: (83+210)*4px;
+					margin-left: -83px;
+					@include clearfix();
+					li{
+						float: left;
+						width: 210px;
+						margin-top: 80px;
+						margin-left: 83px;
+						.icon{
+							width: 63px;
+							height: 50px;
+							background: url('../images/hiring/ico1.png') no-repeat;
+							background-size: 63px 50px;
+							margin:auto auto;
+						}
+						.chinese{
+							margin-top: 33px;
+							color:#232323;
+							font:18px/1em $font-family;
+							text-align: center;
+						}
+						.description{
+							margin-top: 22px;
+							p{
+								color:#969696;
+								font:12px/20px $font-family;
+								text-align: center;
+							}
+						}
+						&.second{
+							.icon{
+								width: 63px;
+								height: 50px;
+								background: url('../images/hiring/ico2.png') no-repeat;
+								background-size: 63px 50px;
+							}
+						}
+						&.third{
+							.icon{
+								width: 63px;
+								height: 50px;
+								background: url('../images/hiring/ico3.png') no-repeat;
+								background-size: 63px 50px;
+							}
+							
+						}
+						&.fourth{
+							.icon{
+								width: 63px;
+								height: 50px;
+								background: url('../images/hiring/ico4.png') no-repeat;
+								background-size: 63px 50px;
+							}
+						}
+					}
+				}
+			}
 		}
+		
 		.fire-hiring-workspace{
 			width: 100%;
 			height:1091px;
@@ -61,6 +145,7 @@
 				display: block;
 			}
 		}
+
 		.fire-hiring-list{
 			width: 100%;
 			height:874px;
@@ -73,6 +158,82 @@
 				margin:auto auto;
 				margin-top: 79px;
 				background:url('../images/hiring/hiring-list-logo.png') no-repeat;
+			}
+			.fire-hiring-list-container{
+				width: 1402px;
+				margin: auto auto;
+				margin-top: 83px;
+				.fire-hiring-list-group{
+					width: 80%;
+					margin: auto auto;
+					@include clearfix();
+					ul{
+						float:left;
+						width: 130px;
+						li{
+							height: 16px;
+							padding: 15px 14px;
+							border-bottom:1px solid #d9d9d9;
+							a{
+								float:left;
+								color:#909090;
+								font:14px/16px $font-family;
+							}
+							.icon{
+								width: 16px;
+								height: 16px;
+								float: right;
+								background:url('../images/hiring/zhaopin_btn.png') no-repeat;
+								background-size:16px 16px;
+							}
+							&.active{
+								a{
+									color:#e54120;
+								}
+								.icon{
+									background:url('../images/hiring/zhaopin_btn_active.png') no-repeat;
+									background-size:16px 16px;
+								}
+							}
+						}
+					}
+					.detail{
+						float:left;
+						width: 72%;
+						margin-left: 113px;
+						h3{
+							color:#3d3d3d;
+							font:14px/1em $font-family;
+							text-align: left;
+						}
+						.title{
+							margin-top: 19px;
+							padding:7px 0px;
+							padding-left: 9px;
+							color: #e54120;
+							font:14px/1em $font-family;
+							background:#e8e8e8;
+						}
+						.content{
+							margin-top: 10px;
+							p{
+								line-height: 30px;
+								span{
+									color:#3d3d3d;
+									font:14px/1em $font-family;
+									font{
+										color:#6f6f6f;
+										font:14px/1em $font-family;
+									}
+								}
+								font{
+									color:#6f6f6f;
+									font:14px/1em $font-family;
+								}
+							}
+						}
+					}
+				}
 			}
 		}
 	}

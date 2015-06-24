@@ -1,92 +1,102 @@
 @charset "utf-8";
-
-@import "normalize","common";
-@import "mixin","variable";
+/**
+ *
+ *version------0.0.1
+ *author-------crazyz
+ *date---------2015-6-24
+ */
+@import "normalize","common","mixin","variable";
 @import "carousel","header","footer";
 
 body{
-	background:#efefef;
+	background:#ffffff;
 }
 .ui-carousel{
 	height: 378+60px;
 	margin-top:41px;
 }
 .fire-container{
-	width:1402px;
+	width:100%;
+	min-width:1402px;
 	margin:auto auto;
 	@at-root{
-		.fire-aboutfire{
+		.fire-about{
 			width: 100%;
 			height: 390px;
 			background: #ffffff;
 			@at-root{
-				.fire-aboutfire-group{
-					float: left;
-					width: 435px;
-					margin-top: 62px;
-					margin-left: 239px;
-					.aboutfire{
-						height: 114px;
-						margin-top: -7px;
-						h2{
-							color: #060606;
-							font:24px/1em $font-family;
-							margin-bottom: 13px;
-						}
-						p{
-							font:14px/2em $font-family;
-						}
-					}
-					.dowhat{
-						margin-top: 25px;
-						@include clearfix();
-						.dowhat-color{
-							float: left;
-							width: 5px;
-							height: 61px;
-							background:#e54120;
-						}
-						.dowhat-font{
-							height: 77px;
+				.fire-about-container{
+					width: 1402px;
+					margin:auto auto;
+					@include clearfix();
+					.fire-about-font{
+						float: left;
+						width: 435px;
+						margin-top: 62px;
+						margin-left: 239px;
+						.about{
+							height: 114px;
 							margin-top: -7px;
+							h2{
+								color: #060606;
+								font:24px/1em $font-family;
+								margin-bottom: 13px;
+							}
 							p{
-								margin-left: 16px;
 								font:14px/2em $font-family;
 							}
 						}
-					}
-					.detail{
-						width: 154px;
-						height: 41px;
-						margin-top: 35px;
-						background:url('../images/index/detail.png') no-repeat;
-						&:hover{
-							background:url('../images/index/detail-hover.png') no-repeat;
+						.dowhat{
+							margin-top: 25px;
+							@include clearfix();
+							.dowhat-color{
+								float: left;
+								width: 5px;
+								height: 61px;
+								background:#e54120;
+							}
+							.dowhat-font{
+								height: 77px;
+								margin-top: -7px;
+								p{
+									margin-left: 16px;
+									font:14px/2em $font-family;
+								}
+							}
 						}
+						.detail{
+							width: 154px;
+							height: 41px;
+							margin-top: 35px;
+							background:url('../images/index/detail.png') no-repeat;
+							&:hover{
+								background:url('../images/index/detail-hover.png') no-repeat;
+							}
+						}
+					}
+					.fire-about-img{
+						float: left;
+						width: 428px;
+						height: 255px;
+						margin-top: 75px;
+						margin-left: 80px;
+						background:url('../images/index/homepage_pic00.png') no-repeat;
 					}
 				}
 			}
-			.workspace{
-				float: left;
-				width: 428px;
-				height: 255px;
-				margin-top: 75px;
-				margin-left: 80px;
-				background:url('../images/index/homepage_pic00.png') no-repeat;
-			}
 		}
-		.fire-show{
+		.fire-product{
 			width: 100%;
 			height: 404px;
 			background:url('../images/index/wallpaper.jpg') no-repeat;
 			background-size:100% 404px;
-			.fire-show-container{
+			.fire-product-container{
 				width: 934px;
 				margin:auto auto;
-				.fire-show-product{
+				ul{
 					margin-left:-38px;
 					@include clearfix();
-					.fire-show-product-item{
+					li{
 						float: left;
 						width: 286px;
 						height: 255px;

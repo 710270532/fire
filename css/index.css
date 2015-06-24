@@ -1,3 +1,9 @@
+/**
+ *
+ *version------0.0.1
+ *author-------crazyz
+ *date---------2015-6-24
+ */
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 /*! normalize.css v3.0.0 | HTML5 Display Definitions | MIT License | git.io/normalize */
 /* line 9, ../../../../../../../ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
@@ -266,51 +272,70 @@ th {
   padding: 0;
 }
 
-/* line 3, ../sass/_common.scss */
-* {
-  margin: 0px;
-  padding: 0px;
-}
-
-/* line 7, ../sass/_common.scss */
+/**
+ *
+ *version------0.0.1
+ *author-------crazyz
+ *date---------2015-6-24
+ */
+/* line 9, ../sass/_common.scss */
 a {
   text-decoration: none;
 }
-/* line 9, ../sass/_common.scss */
+/* line 11, ../sass/_common.scss */
 a:hover {
   text-decoration: none;
 }
 
-/* line 13, ../sass/_common.scss */
+/* line 15, ../sass/_common.scss */
 ul {
+  margin: 0px;
+  padding: 0px;
   list-style: none;
 }
 
-/* line 7, ../sass/_carousel.scss */
+/* line 20, ../sass/_common.scss */
+p {
+  margin: 0px;
+}
+
+/**
+ *
+ *version------0.0.1
+ *author-------crazyz
+ *date---------2015-6-24
+ */
+/* line 10, ../sass/_carousel.scss */
 .ui-carousel {
-  width: 1402px;
+  width: 100%;
+  min-width: 1402px;
   height: 438px;
   margin: auto auto;
-  position: relative;
 }
-/* line 13, ../sass/_carousel.scss */
+/* line 16, ../sass/_carousel.scss */
 .ui-carousel:hover .ui-carousel-button {
   display: block;
 }
-/* line 16, ../sass/_carousel.scss */
-.ui-carousel-content {
-  z-index: -1;
-  position: absolute;
-}
 /* line 19, ../sass/_carousel.scss */
+.ui-carousel-content {
+  width: 100%;
+}
+/* line 21, ../sass/_carousel.scss */
 .ui-carousel-content img {
-  width: 1402px;
+  width: 100%;
   height: 438px;
   position: absolute;
   display: none;
 }
 
-/* line 26, ../sass/_carousel.scss */
+/* line 28, ../sass/_carousel.scss */
+.ui-carousel-group {
+  width: 1402px;
+  height: 438px;
+  margin: auto auto;
+  position: relative;
+}
+/* line 34, ../sass/_carousel.scss */
 .ui-carousel-dot {
   left: 50%;
   width: 60%;
@@ -318,7 +343,7 @@ ul {
   bottom: 15px;
   position: absolute;
 }
-/* line 33, ../sass/_carousel.scss */
+/* line 40, ../sass/_carousel.scss */
 .ui-carousel-dot ul {
   width: 135px;
   margin: auto auto;
@@ -331,12 +356,12 @@ ul {
   content: "";
   display: table;
 }
-/* line 37, ../sass/_carousel.scss */
+/* line 44, ../sass/_carousel.scss */
 .ui-carousel-dot ul li {
   float: left;
   margin-left: 12px;
 }
-/* line 40, ../sass/_carousel.scss */
+/* line 47, ../sass/_carousel.scss */
 .ui-carousel-dot ul li a {
   width: 15px;
   height: 15px;
@@ -344,16 +369,16 @@ ul {
   background-position: 0px 0px;
   display: block;
 }
-/* line 46, ../sass/_carousel.scss */
+/* line 53, ../sass/_carousel.scss */
 .ui-carousel-dot ul li a:hover, .ui-carousel-dot ul li a.active {
   background: url("../images/index/carousel/dot-hover.png") no-repeat;
 }
 
-/* line 53, ../sass/_carousel.scss */
+/* line 60, ../sass/_carousel.scss */
 .ui-carousel-button {
   display: none;
 }
-/* line 55, ../sass/_carousel.scss */
+/* line 62, ../sass/_carousel.scss */
 .ui-carousel-button .ui-carousel-prev {
   width: 62px;
   height: 62px;
@@ -366,12 +391,12 @@ ul {
   position: absolute;
   z-index: 1;
 }
-/* line 66, ../sass/_carousel.scss */
+/* line 73, ../sass/_carousel.scss */
 .ui-carousel-button .ui-carousel-prev:hover {
   background: url("../images/index/carousel/prev-hover.png") no-repeat;
   background-size: 62px 62px;
 }
-/* line 72, ../sass/_carousel.scss */
+/* line 79, ../sass/_carousel.scss */
 .ui-carousel-button .ui-carousel-next {
   width: 62px;
   height: 62px;
@@ -384,13 +409,13 @@ ul {
   position: absolute;
   z-index: 1;
 }
-/* line 83, ../sass/_carousel.scss */
+/* line 90, ../sass/_carousel.scss */
 .ui-carousel-button .ui-carousel-next:hover {
   background: url("../images/index/carousel/next-hover.png") no-repeat;
   background-size: 62px 62px;
 }
 
-/* line 90, ../sass/_carousel.scss */
+/* line 97, ../sass/_carousel.scss */
 .modern {
   top: 289px;
   left: 322px;
@@ -401,22 +426,29 @@ ul {
   z-index: 2;
 }
 
-/* line 6, ../sass/_header.scss */
+/**
+ *
+ *version------0.0.1
+ *author-------crazyz
+ *date---------2015-6-24
+ */
+/* line 10, ../sass/_header.scss */
 header {
-  width: 1402px;
-  margin: auto auto;
+  width: 100%;
+  min-width: 1402px;
   margin-bottom: -41px;
+  position: relative;
 }
-/* line 11, ../sass/_header.scss */
+/* line 16, ../sass/_header.scss */
 .fire-topbar {
-  width: 1402px;
+  width: 100%;
   height: 41px;
   background: #e54120;
 }
 
-/* line 16, ../sass/_header.scss */
+/* line 21, ../sass/_header.scss */
 .fire-navbar-background {
-  width: 1402px;
+  width: 100%;
   height: 60px;
   position: absolute;
   z-index: 1;
@@ -425,9 +457,14 @@ header {
   filter: alpha(opacity=50);
 }
 
-/* line 23, ../sass/_header.scss */
-.fire-navbar {
+/* line 28, ../sass/_header.scss */
+.header-container {
   width: 1402px;
+  margin: auto auto;
+}
+/* line 31, ../sass/_header.scss */
+.header-container .fire-navbar {
+  width: 100%;
   height: 60px;
   position: absolute;
   z-index: 2;
@@ -436,12 +473,12 @@ header {
   overflow: hidden;
 }
 /* line 17, ../sass/_mixin.scss */
-.fire-navbar:before, .fire-navbar:after {
+.header-container .fire-navbar:before, .header-container .fire-navbar:after {
   content: "";
   display: table;
 }
-/* line 29, ../sass/_header.scss */
-.fire-navbar .logo {
+/* line 37, ../sass/_header.scss */
+.header-container .fire-navbar .logo {
   float: left;
   width: 156px;
   height: 36px;
@@ -450,18 +487,18 @@ header {
   margin-left: 219px;
   background: url("../images/index/logo.png") no-repeat;
 }
-/* line 38, ../sass/_header.scss */
-.fire-navbar ul {
+/* line 46, ../sass/_header.scss */
+.header-container .fire-navbar ul {
   float: left;
   margin-left: 308px;
 }
-/* line 41, ../sass/_header.scss */
-.fire-navbar ul li {
+/* line 49, ../sass/_header.scss */
+.header-container .fire-navbar ul li {
   float: left;
   margin-left: -47px;
 }
-/* line 44, ../sass/_header.scss */
-.fire-navbar ul li a {
+/* line 52, ../sass/_header.scss */
+.header-container .fire-navbar ul li a {
   width: 165px;
   height: 60px;
   color: #b3b3b3;
@@ -470,18 +507,24 @@ header {
   text-align: center;
   display: block;
 }
-/* line 51, ../sass/_header.scss */
-.fire-navbar ul li a:hover {
+/* line 59, ../sass/_header.scss */
+.header-container .fire-navbar ul li a:hover {
   color: #e54120;
 }
-/* line 54, ../sass/_header.scss */
-.fire-navbar ul li a.active {
+/* line 62, ../sass/_header.scss */
+.header-container .fire-navbar ul li a.active {
   color: #ffffff;
   background: url("../images/index/hp_nav_btn.png") no-repeat;
   background-size: 157px 60px;
 }
 
-/* line 6, ../sass/_footer.scss */
+/**
+ *
+ *version------0.0.1
+ *author-------crazyz
+ *date---------2015-6-24
+ */
+/* line 10, ../sass/_footer.scss */
 html, body {
   width: 100%;
   height: 100%;
@@ -492,115 +535,130 @@ html, body {
   -ms-box-sizing: border-box;
 }
 
-/* line 11, ../sass/_footer.scss */
+/* line 15, ../sass/_footer.scss */
 footer {
-  width: 1402px;
+  width: 100%;
+  min-width: 1402px;
   height: 82px;
   background: #1e1e1e;
   margin: auto auto;
 }
-/* line 16, ../sass/_footer.scss */
+/* line 21, ../sass/_footer.scss */
 footer p {
   color: #ffffff;
   font: 12px "Microsoft Yahei", "Simsun", Arial, monospace, monospace;
   line-height: 14px;
   text-align: center;
 }
-/* line 21, ../sass/_footer.scss */
+/* line 26, ../sass/_footer.scss */
 footer p.footer-icp {
   padding-top: 23px;
 }
-/* line 24, ../sass/_footer.scss */
+/* line 29, ../sass/_footer.scss */
 footer p.footer-copyright {
   padding-top: 14px;
 }
 
-/* line 7, ../sass/index.scss */
+/* line 11, ../sass/index.scss */
 body {
-  background: #efefef;
+  background: #ffffff;
 }
 
-/* line 10, ../sass/index.scss */
+/* line 14, ../sass/index.scss */
 .ui-carousel {
   height: 438px;
   margin-top: 41px;
 }
 
-/* line 14, ../sass/index.scss */
+/* line 18, ../sass/index.scss */
 .fire-container {
-  width: 1402px;
+  width: 100%;
+  min-width: 1402px;
   margin: auto auto;
 }
-/* line 18, ../sass/index.scss */
-.fire-aboutfire {
+/* line 23, ../sass/index.scss */
+.fire-about {
   width: 100%;
   height: 390px;
   background: #ffffff;
 }
-/* line 23, ../sass/index.scss */
-.fire-aboutfire-group {
+/* line 28, ../sass/index.scss */
+.fire-about-container {
+  width: 1402px;
+  margin: auto auto;
+  *zoom: 1;
+  clear: both;
+  overflow: hidden;
+}
+/* line 17, ../sass/_mixin.scss */
+.fire-about-container:before, .fire-about-container:after {
+  content: "";
+  display: table;
+}
+/* line 32, ../sass/index.scss */
+.fire-about-container .fire-about-font {
   float: left;
   width: 435px;
   margin-top: 62px;
   margin-left: 239px;
 }
-/* line 28, ../sass/index.scss */
-.fire-aboutfire-group .aboutfire {
+/* line 37, ../sass/index.scss */
+.fire-about-container .fire-about-font .about {
   height: 114px;
   margin-top: -7px;
 }
-/* line 31, ../sass/index.scss */
-.fire-aboutfire-group .aboutfire h2 {
+/* line 40, ../sass/index.scss */
+.fire-about-container .fire-about-font .about h2 {
   color: #060606;
   font: 24px/1em "Microsoft Yahei", "Simsun", Arial, monospace, monospace;
   margin-bottom: 13px;
 }
-/* line 36, ../sass/index.scss */
-.fire-aboutfire-group .aboutfire p {
+/* line 45, ../sass/index.scss */
+.fire-about-container .fire-about-font .about p {
   font: 14px/2em "Microsoft Yahei", "Simsun", Arial, monospace, monospace;
 }
-/* line 40, ../sass/index.scss */
-.fire-aboutfire-group .dowhat {
+/* line 49, ../sass/index.scss */
+.fire-about-container .fire-about-font .dowhat {
   margin-top: 25px;
   *zoom: 1;
   clear: both;
   overflow: hidden;
 }
 /* line 17, ../sass/_mixin.scss */
-.fire-aboutfire-group .dowhat:before, .fire-aboutfire-group .dowhat:after {
+.fire-about-container .fire-about-font .dowhat:before, .fire-about-container .fire-about-font .dowhat:after {
   content: "";
   display: table;
 }
-/* line 43, ../sass/index.scss */
-.fire-aboutfire-group .dowhat .dowhat-color {
+/* line 52, ../sass/index.scss */
+.fire-about-container .fire-about-font .dowhat .dowhat-color {
   float: left;
   width: 5px;
   height: 61px;
   background: #e54120;
 }
-/* line 49, ../sass/index.scss */
-.fire-aboutfire-group .dowhat .dowhat-font {
+/* line 58, ../sass/index.scss */
+.fire-about-container .fire-about-font .dowhat .dowhat-font {
   height: 77px;
   margin-top: -7px;
 }
-/* line 52, ../sass/index.scss */
-.fire-aboutfire-group .dowhat .dowhat-font p {
+/* line 61, ../sass/index.scss */
+.fire-about-container .fire-about-font .dowhat .dowhat-font p {
   margin-left: 16px;
   font: 14px/2em "Microsoft Yahei", "Simsun", Arial, monospace, monospace;
 }
-/* line 58, ../sass/index.scss */
-.fire-aboutfire-group .detail {
+/* line 67, ../sass/index.scss */
+.fire-about-container .fire-about-font .detail {
   width: 154px;
   height: 41px;
   margin-top: 35px;
   background: url("../images/index/detail.png") no-repeat;
 }
-/* line 63, ../sass/index.scss */
-.fire-aboutfire-group .detail:hover {
+/* line 72, ../sass/index.scss */
+.fire-about-container .fire-about-font .detail:hover {
   background: url("../images/index/detail-hover.png") no-repeat;
 }
-/* line 69, ../sass/index.scss */
-.fire-aboutfire .workspace {
+/* line 77, ../sass/index.scss */
+.fire-about-container .fire-about-img {
   float: left;
   width: 428px;
   height: 255px;
@@ -609,32 +667,32 @@ body {
   background: url("../images/index/homepage_pic00.png") no-repeat;
 }
 
-/* line 78, ../sass/index.scss */
-.fire-show {
+/* line 88, ../sass/index.scss */
+.fire-product {
   width: 100%;
   height: 404px;
   background: url("../images/index/wallpaper.jpg") no-repeat;
   background-size: 100% 404px;
 }
-/* line 83, ../sass/index.scss */
-.fire-show .fire-show-container {
+/* line 93, ../sass/index.scss */
+.fire-product .fire-product-container {
   width: 934px;
   margin: auto auto;
 }
-/* line 86, ../sass/index.scss */
-.fire-show .fire-show-container .fire-show-product {
+/* line 96, ../sass/index.scss */
+.fire-product .fire-product-container ul {
   margin-left: -38px;
   *zoom: 1;
   clear: both;
   overflow: hidden;
 }
 /* line 17, ../sass/_mixin.scss */
-.fire-show .fire-show-container .fire-show-product:before, .fire-show .fire-show-container .fire-show-product:after {
+.fire-product .fire-product-container ul:before, .fire-product .fire-product-container ul:after {
   content: "";
   display: table;
 }
-/* line 89, ../sass/index.scss */
-.fire-show .fire-show-container .fire-show-product .fire-show-product-item {
+/* line 99, ../sass/index.scss */
+.fire-product .fire-product-container ul li {
   float: left;
   width: 286px;
   height: 255px;
@@ -642,13 +700,13 @@ body {
   margin-left: 38px;
   background: #ffffff;
 }
-/* line 96, ../sass/index.scss */
-.fire-show .fire-show-container .fire-show-product .fire-show-product-item img {
+/* line 106, ../sass/index.scss */
+.fire-product .fire-product-container ul li img {
   width: 100%;
   height: 174px;
 }
 
-/* line 104, ../sass/index.scss */
+/* line 114, ../sass/index.scss */
 .fire-hiring {
   width: 100%;
   height: 470px;
@@ -656,7 +714,7 @@ body {
   border-top: 1px solid #ffffff;
   overflow: hidden;
 }
-/* line 110, ../sass/index.scss */
+/* line 120, ../sass/index.scss */
 .fire-hiring .hiring-logo {
   width: 302px;
   height: 58px;
@@ -664,12 +722,12 @@ body {
   margin-top: 59px;
   background: url("../images/index/hiring-logo.png") no-repeat;
 }
-/* line 117, ../sass/index.scss */
+/* line 127, ../sass/index.scss */
 .fire-hiring .hiring-deatil {
   width: 1020px;
   margin: auto auto;
 }
-/* line 120, ../sass/index.scss */
+/* line 130, ../sass/index.scss */
 .fire-hiring .hiring-deatil ul {
   margin-top: 87px;
   margin-left: -44px;
@@ -682,19 +740,19 @@ body {
   content: "";
   display: table;
 }
-/* line 125, ../sass/index.scss */
+/* line 135, ../sass/index.scss */
 .fire-hiring .hiring-deatil ul li {
   float: left;
   width: 176px;
   margin: auto 44px;
 }
-/* line 129, ../sass/index.scss */
+/* line 139, ../sass/index.scss */
 .fire-hiring .hiring-deatil ul li h3 {
   color: #e54120;
   font: 18px/1em "Microsoft Yahei", "Simsun", Arial, monospace, monospace;
   text-align: center;
 }
-/* line 134, ../sass/index.scss */
+/* line 144, ../sass/index.scss */
 .fire-hiring .hiring-deatil ul li p {
   margin-top: 23px;
   color: #3d3d3d;

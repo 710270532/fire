@@ -1,38 +1,54 @@
 @charset "utf-8";
-
-@import "normalize","common";
-@import "mixin","variable";
+/**
+ *
+ *version------0.0.1
+ *author-------crazyz
+ *date---------2015-6-24
+ */
+@import "normalize","common","mixin","variable";
 @import "header","footer";
 
 .fire-about-header{
-	width:1402px;
+	width:100%;
+	min-width:1402px;
 	height:335+41px;
 	margin:auto auto;
 	position: relative;
-	.fire-about-header-img{
-		left:50%;
-		width:1402px;
-		margin-top:41px;
-		margin-left:-701px;
-		position:absolute;
-		z-index:-2;
-		img{
-			width: 100%;
-			height: 335px;
-		}
-		.aboutfire{
-			top: 164+60px;
-			left: 238px;
-			width: 302px;
-			height: 48px;
-			background:url('../images/about/aboutfire.png') no-repeat;
+	overflow:hidden;
+	@at-root{
+		.fire-about-header-img{
+			width:100%;
+			min-width:1402px;
+			margin-top:41px;
 			position:absolute;
-			z-index:2;
+			z-index:-2;
+			img{
+				width:100%;
+				min-width:1402px;
+				height: 335px;
+			}
+		}
+		.fire-about-header-container{
+			width: 1402px;
+			height: 335px;
+			margin:auto auto;
+			margin-top:41px;
+			position: relative;
+			.aboutfire{
+				top: 164+60px;
+				left: 238px;
+				width: 302px;
+				height: 48px;
+				background:url('../images/about/aboutfire.png') no-repeat;
+				position:absolute;
+				z-index:2;
+			}
 		}
 	}
 }
 .fire-about-container{
-	width:1402px;
+	width:100%;
+	min-width:1402px;
 	margin:auto auto;
 	@at-root{
 		.fire-about-dowhat{
