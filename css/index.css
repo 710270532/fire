@@ -308,7 +308,7 @@ p, h1, h2, h3, h4, h5 {
 /* line 10, ../sass/_carousel.scss */
 .ui-carousel {
   width: 100%;
-  min-width: 1402px;
+  min-width: 1202px;
   height: 438px;
   margin: auto auto;
 }
@@ -323,7 +323,7 @@ p, h1, h2, h3, h4, h5 {
 /* line 21, ../sass/_carousel.scss */
 .ui-carousel-content img {
   width: 100%;
-  min-width: 1402px;
+  min-width: 1202px;
   height: 438px;
   position: absolute;
   display: none;
@@ -331,7 +331,7 @@ p, h1, h2, h3, h4, h5 {
 
 /* line 29, ../sass/_carousel.scss */
 .ui-carousel-group {
-  width: 1402px;
+  width: 1202px;
   height: 438px;
   margin: auto auto;
   position: relative;
@@ -436,7 +436,7 @@ p, h1, h2, h3, h4, h5 {
 /* line 10, ../sass/_header.scss */
 header {
   width: 100%;
-  min-width: 1402px;
+  min-width: 1202px;
   margin-bottom: -41px;
   position: relative;
 }
@@ -460,7 +460,7 @@ header {
 
 /* line 28, ../sass/_header.scss */
 .header-container {
-  width: 1402px;
+  width: 1202px;
   height: 0px;
   margin: auto auto;
   position: relative;
@@ -541,7 +541,7 @@ html, body {
 /* line 15, ../sass/_footer.scss */
 footer {
   width: 100%;
-  min-width: 1402px;
+  min-width: 1202px;
   height: 82px;
   background: #1e1e1e;
   margin: auto auto;
@@ -597,7 +597,7 @@ body {
 /* line 18, ../sass/index.scss */
 .fire-container {
   width: 100%;
-  min-width: 1402px;
+  min-width: 1202px;
   margin: auto auto;
 }
 /* line 23, ../sass/index.scss */
@@ -608,7 +608,7 @@ body {
 }
 /* line 28, ../sass/index.scss */
 .fire-about-container {
-  width: 1402px;
+  width: 1202px;
   margin: auto auto;
   *zoom: 1;
   clear: both;
@@ -624,7 +624,7 @@ body {
   float: left;
   width: 435px;
   margin-top: 62px;
-  margin-left: 239px;
+  margin-left: 139px;
 }
 /* line 37, ../sass/index.scss */
 .fire-about-container .fire-about-font .about {

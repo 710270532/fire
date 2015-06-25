@@ -17,7 +17,7 @@ body{
 }
 .fire-container{
 	width:100%;
-	min-width:1402px;
+	min-width:1202px;
 	margin:auto auto;
 	@at-root{
 		.fire-about{
@@ -26,14 +26,14 @@ body{
 			background: #ffffff;
 			@at-root{
 				.fire-about-container{
-					width: 1402px;
+					width: 1202px;
 					margin:auto auto;
 					@include clearfix();
 					.fire-about-font{
 						float: left;
 						width: 435px;
 						margin-top: 62px;
-						margin-left: 239px;
+						margin-left: 139px;
 						.about{
 							height: 114px;
 							margin-top: -7px;

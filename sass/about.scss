@@ -10,7 +10,7 @@
 
 .fire-about-header{
 	width:100%;
-	min-width:1402px;
+	min-width:1202px;
 	height:335+41px;
 	margin:auto auto;
 	position: relative;
@@ -18,18 +18,17 @@
 	@at-root{
 		.fire-about-header-img{
 			width:100%;
-			min-width:1402px;
+			min-width:1202px;
 			margin-top:41px;
 			position:absolute;
 			z-index:-2;
 			img{
 				width:100%;
-				min-width:1402px;
 				height: 335px;
 			}
 		}
 		.fire-about-header-container{
-			width: 1402px;
+			width: 1202px;
 			height: 335px;
 			margin:auto auto;
 			margin-top:41px;
@@ -48,7 +47,7 @@
 }
 .fire-about-container{
 	width:100%;
-	min-width:1402px;
+	min-width:1202px;
 	margin:auto auto;
 	@at-root{
 		.fire-about-dowhat{

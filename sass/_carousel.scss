@@ -9,7 +9,7 @@
 
 .ui-carousel{
 	width:100%;
-	min-width:1402px;
+	min-width:1202px;
 	height:438px;
 	margin:auto auto;
 	&:hover{
@@ -20,14 +20,14 @@
 			width:100%;
 			img{
 				width:100%;
-				min-width:1402px;
+				min-width:1202px;
 				height:438px;
 				position:absolute;
 				display: none;
 			}
 		}
 		.ui-carousel-group{
-			width: 1402px;
+			width: 1202px;
 			height: 438px;
 			margin:auto auto;
 			position: relative;

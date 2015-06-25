@@ -308,7 +308,7 @@ p, h1, h2, h3, h4, h5 {
 /* line 10, ../sass/_header.scss */
 header {
   width: 100%;
-  min-width: 1402px;
+  min-width: 1202px;
   margin-bottom: -41px;
   position: relative;
 }
@@ -332,7 +332,7 @@ header {
 
 /* line 28, ../sass/_header.scss */
 .header-container {
-  width: 1402px;
+  width: 1202px;
   height: 0px;
   margin: auto auto;
   position: relative;
@@ -413,7 +413,7 @@ html, body {
 /* line 15, ../sass/_footer.scss */
 footer {
   width: 100%;
-  min-width: 1402px;
+  min-width: 1202px;
   height: 82px;
   background: #1e1e1e;
   margin: auto auto;
@@ -476,7 +476,7 @@ footer p.footer-copyright {
 /* line 11, ../sass/contact.scss */
 .fire-contact-header {
   width: 100%;
-  min-width: 1402px;
+  min-width: 1202px;
   height: 409px;
   margin: auto auto;
   position: relative;
@@ -497,7 +497,7 @@ footer p.footer-copyright {
 
 /* line 29, ../sass/contact.scss */
 .fire-contact-header-container {
-  width: 1402px;
+  width: 1202px;
   margin: auto auto;
   margin-top: 41px;
   position: relative;
@@ -516,12 +516,12 @@ footer p.footer-copyright {
 /* line 46, ../sass/contact.scss */
 .fire-contact-container {
   width: 100%;
-  min-width: 1200px;
+  min-width: 1202px;
   margin: auto auto;
 }
 /* line 51, ../sass/contact.scss */
 .fire-contact-address {
-  width: 1402px;
+  width: 1202px;
   height: 304px;
   background: #ffffff;
   margin: auto auto;

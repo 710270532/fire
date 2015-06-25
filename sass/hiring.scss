@@ -10,7 +10,7 @@
 
 .fire-hiring-header{
 	width:100%;
-	min-width:1402px;
+	min-width:1202px;
 	height:335+41px;
 	margin:auto auto;
 	position: relative;
@@ -23,12 +23,11 @@
 			z-index:-2;
 			img{
 				width: 100%;
-				min-width:1180px;
 				height: 335px;
 			}
 		}
 		.fire-hiring-header-container{
-			width: 1402px;
+			width: 1202px;
 			height: 335px;
 			margin:auto auto;
 			margin-top:41px;
@@ -48,7 +47,7 @@
 
 .fire-container{
 	width:100%;
-	min-width:1200px;
+	min-width:1202px;
 	margin:auto auto;
 	@at-root{
 		.fire-hiring-detail{
@@ -170,6 +169,7 @@
 					ul{
 						float:left;
 						width: 130px;
+						margin-left: 10px;
 						li{
 							height: 16px;
 							padding: 15px 14px;
