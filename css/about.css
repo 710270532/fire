@@ -295,7 +295,7 @@ ul {
 }
 
 /* line 20, ../sass/_common.scss */
-p {
+p, h3 {
   margin: 0px;
 }
 
