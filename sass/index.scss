@@ -6,7 +6,7 @@
  *date---------2015-6-24
  */
 @import "normalize","common","mixin","variable";
-@import "carousel","header","footer";
+@import "carousel","header","footer","backtop";
 
 body{
 	background:#ffffff;
@@ -67,7 +67,7 @@ body{
 						.detail{
 							width: 154px;
 							height: 41px;
-							margin-top: 35px;
+							margin-top: 25px;
 							background:url('../images/index/detail.png') no-repeat;
 							&:hover{
 								background:url('../images/index/detail-hover.png') no-repeat;

@@ -62,9 +62,8 @@ require.config({
         }
     }
 });
-require(['js/init/carousel','js/init/backtop'],function(carousel,backtop){
-    carousel.init();
+require(['js/init/backtop'],function(backtop){
     backtop.init();
 },function(e){
-    console.log("【首页】模块js加载失败");
+    console.log("【招聘】模块js加载失败");
 });

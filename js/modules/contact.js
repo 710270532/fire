@@ -62,9 +62,9 @@ require.config({
         }
     }
 });
-require(['js/init/carousel','js/init/backtop'],function(carousel,backtop){
-    carousel.init();
+require(['js/init/gaode','js/init/backtop'],function(gaode,backtop){
+    gaode.init();
     backtop.init();
 },function(e){
-    console.log("【首页】模块js加载失败");
+    console.log("【联系我们】模块js加载失败");
 });

@@ -295,7 +295,7 @@ ul {
 }
 
 /* line 20, ../sass/_common.scss */
-p, h3 {
+p, h1, h2, h3, h4, h5 {
   margin: 0px;
 }
 
@@ -346,7 +346,7 @@ p, h3 {
 }
 /* line 41, ../sass/_carousel.scss */
 .ui-carousel-dot ul {
-  width: 135px;
+  width: 81px;
   margin: auto auto;
   *zoom: 1;
   clear: both;
@@ -461,9 +461,11 @@ header {
 /* line 28, ../sass/_header.scss */
 .header-container {
   width: 1402px;
+  height: 0px;
   margin: auto auto;
+  position: relative;
 }
-/* line 31, ../sass/_header.scss */
+/* line 33, ../sass/_header.scss */
 .header-container .fire-navbar {
   width: 100%;
   height: 60px;
@@ -478,7 +480,7 @@ header {
   content: "";
   display: table;
 }
-/* line 37, ../sass/_header.scss */
+/* line 39, ../sass/_header.scss */
 .header-container .fire-navbar .logo {
   float: left;
   width: 156px;
@@ -488,17 +490,17 @@ header {
   margin-left: 219px;
   background: url("../images/index/logo.png") no-repeat;
 }
-/* line 46, ../sass/_header.scss */
+/* line 48, ../sass/_header.scss */
 .header-container .fire-navbar ul {
   float: left;
   margin-left: 308px;
 }
-/* line 49, ../sass/_header.scss */
+/* line 51, ../sass/_header.scss */
 .header-container .fire-navbar ul li {
   float: left;
   margin-left: -47px;
 }
-/* line 52, ../sass/_header.scss */
+/* line 54, ../sass/_header.scss */
 .header-container .fire-navbar ul li a {
   width: 165px;
   height: 60px;
@@ -508,11 +510,11 @@ header {
   text-align: center;
   display: block;
 }
-/* line 59, ../sass/_header.scss */
+/* line 61, ../sass/_header.scss */
 .header-container .fire-navbar ul li a:hover {
   color: #e54120;
 }
-/* line 62, ../sass/_header.scss */
+/* line 64, ../sass/_header.scss */
 .header-container .fire-navbar ul li a.active {
   color: #ffffff;
   background: url("../images/index/hp_nav_btn.png") no-repeat;
@@ -558,6 +560,27 @@ footer p.footer-icp {
 /* line 29, ../sass/_footer.scss */
 footer p.footer-copyright {
   padding-top: 14px;
+}
+
+/**
+ *
+ *version------0.0.1
+ *author-------crazyz
+ *date---------2015-6-24
+ */
+/* line 10, ../sass/_backtop.scss */
+#backtop {
+  width: 50px;
+  height: 50px;
+  background: url("../images/backtop.png") no-repeat;
+  display: none;
+  position: fixed;
+  right: 10%;
+  bottom: 10%;
+}
+/* line 18, ../sass/_backtop.scss */
+#backtop:hover {
+  background-position: -50px 0px;
 }
 
 /* line 11, ../sass/index.scss */
@@ -651,7 +674,7 @@ body {
 .fire-about-container .fire-about-font .detail {
   width: 154px;
   height: 41px;
-  margin-top: 35px;
+  margin-top: 25px;
   background: url("../images/index/detail.png") no-repeat;
 }
 /* line 72, ../sass/index.scss */
