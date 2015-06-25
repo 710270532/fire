@@ -1,14 +1,14 @@
 define(function(dom){
 	return {
 		init:function(){
-			var temp = 0;
 			var current = 0;
 			var prev = document.getElementById('carousel-prev');
 			var next = document.getElementById('carousel-next');
 			var carousel = document.getElementById('carousel');
 			var item = carousel.getElementsByTagName('img');
 			var dot = document.getElementById('carousel-dot').getElementsByTagName('a');
-			
+			var total =  item.length;
+
 			//初始化
 			(function(){
 				dot[0].className = 'active';
@@ -24,9 +24,9 @@ define(function(dom){
 					}
 				}
 				dot[current].className = '';
-				dot[current-1<0?2:current-1].className = 'active';
+				dot[current-1<0?total-1:current-1].className = 'active';
 				item[current].style.display='';
-				item[current-1<0?2:current-1].style.display='block';
+				item[current-1<0?total-1:current-1].style.display='block';
 			}
 			next.onclick = function(){
 				for (var i=0; i<dot.length; i++) {
@@ -36,9 +36,9 @@ define(function(dom){
 					}
 				}
 				dot[current].className = '';
-				dot[current+1>2?0:current+1].className = 'active';
+				dot[current+1>total-1?0:current+1].className = 'active';
 				item[current].style.display='';
-				item[current+1>2?0:current+1].style.display='block';
+				item[current+1>total-1?0:current+1].style.display='block';
 			}
 
 			//绑定dot翻页事件
@@ -84,20 +84,20 @@ define(function(dom){
 						item[current].style.filter = 'alpha(opacity:'+opacity+')';
 						item[current].style.opacity = opacity/100;
 
-						item[current+1>2?0:current+1].style.filter = 'alpha(opacity:'+(100-opacity)+')';
-						item[current+1>2?0:current+1].style.opacity = 1-(opacity/100);
-						item[current+1>2?0:current+1].style.display='block';
+						item[current+1>total-1?0:current+1].style.filter = 'alpha(opacity:'+(100-opacity)+')';
+						item[current+1>total-1?0:current+1].style.opacity = 1-(opacity/100);
+						item[current+1>total-1?0:current+1].style.display='block';
 
 						if(opacity<20){
 							dot[current].className = '';
-							dot[current+1>2?0:current+1].className = 'active';
+							dot[current+1>total-1?0:current+1].className = 'active';
 
 							item[current].style.filter = 'alpha(opacity:100)';
 							item[current].style.opacity = 1;
 							item[current].style.display = 'none';
 
-							item[current+1>2?0:current+1].style.filter = 'alpha(opacity:100)';
-							item[current+1>2?0:current+1].style.opacity = 1;
+							item[current+1>total-1?0:current+1].style.filter = 'alpha(opacity:100)';
+							item[current+1>total-1?0:current+1].style.opacity = 1;
 
 							opacity = 100;
 							window.clearInterval(animation);
@@ -105,7 +105,6 @@ define(function(dom){
 					},100);
 				},4000);
 		    }
-			
 		}
 	}
 });
