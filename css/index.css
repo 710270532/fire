@@ -323,19 +323,20 @@ p {
 /* line 21, ../sass/_carousel.scss */
 .ui-carousel-content img {
   width: 100%;
+  min-width: 1402px;
   height: 438px;
   position: absolute;
   display: none;
 }
 
-/* line 28, ../sass/_carousel.scss */
+/* line 29, ../sass/_carousel.scss */
 .ui-carousel-group {
   width: 1402px;
   height: 438px;
   margin: auto auto;
   position: relative;
 }
-/* line 34, ../sass/_carousel.scss */
+/* line 35, ../sass/_carousel.scss */
 .ui-carousel-dot {
   left: 50%;
   width: 60%;
@@ -343,7 +344,7 @@ p {
   bottom: 15px;
   position: absolute;
 }
-/* line 40, ../sass/_carousel.scss */
+/* line 41, ../sass/_carousel.scss */
 .ui-carousel-dot ul {
   width: 135px;
   margin: auto auto;
@@ -356,12 +357,12 @@ p {
   content: "";
   display: table;
 }
-/* line 44, ../sass/_carousel.scss */
+/* line 45, ../sass/_carousel.scss */
 .ui-carousel-dot ul li {
   float: left;
   margin-left: 12px;
 }
-/* line 47, ../sass/_carousel.scss */
+/* line 48, ../sass/_carousel.scss */
 .ui-carousel-dot ul li a {
   width: 15px;
   height: 15px;
@@ -369,16 +370,16 @@ p {
   background-position: 0px 0px;
   display: block;
 }
-/* line 53, ../sass/_carousel.scss */
+/* line 54, ../sass/_carousel.scss */
 .ui-carousel-dot ul li a:hover, .ui-carousel-dot ul li a.active {
   background: url("../images/index/carousel/dot-hover.png") no-repeat;
 }
 
-/* line 60, ../sass/_carousel.scss */
+/* line 61, ../sass/_carousel.scss */
 .ui-carousel-button {
   display: none;
 }
-/* line 62, ../sass/_carousel.scss */
+/* line 63, ../sass/_carousel.scss */
 .ui-carousel-button .ui-carousel-prev {
   width: 62px;
   height: 62px;
@@ -391,12 +392,12 @@ p {
   position: absolute;
   z-index: 1;
 }
-/* line 73, ../sass/_carousel.scss */
+/* line 74, ../sass/_carousel.scss */
 .ui-carousel-button .ui-carousel-prev:hover {
   background: url("../images/index/carousel/prev-hover.png") no-repeat;
   background-size: 62px 62px;
 }
-/* line 79, ../sass/_carousel.scss */
+/* line 80, ../sass/_carousel.scss */
 .ui-carousel-button .ui-carousel-next {
   width: 62px;
   height: 62px;
@@ -409,13 +410,13 @@ p {
   position: absolute;
   z-index: 1;
 }
-/* line 90, ../sass/_carousel.scss */
+/* line 91, ../sass/_carousel.scss */
 .ui-carousel-button .ui-carousel-next:hover {
   background: url("../images/index/carousel/next-hover.png") no-repeat;
   background-size: 62px 62px;
 }
 
-/* line 97, ../sass/_carousel.scss */
+/* line 98, ../sass/_carousel.scss */
 .modern {
   top: 289px;
   left: 322px;
