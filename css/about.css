@@ -456,6 +456,11 @@ footer p.footer-copyright {
 }
 
 /* line 11, ../sass/about.scss */
+body {
+  overflow-x: hidden;
+}
+
+/* line 14, ../sass/about.scss */
 .fire-about-header {
   width: 100%;
   min-width: 1202px;
@@ -464,7 +469,7 @@ footer p.footer-copyright {
   position: relative;
   overflow: hidden;
 }
-/* line 19, ../sass/about.scss */
+/* line 22, ../sass/about.scss */
 .fire-about-header-img {
   width: 100%;
   min-width: 1202px;
@@ -472,13 +477,13 @@ footer p.footer-copyright {
   position: absolute;
   z-index: -2;
 }
-/* line 25, ../sass/about.scss */
+/* line 28, ../sass/about.scss */
 .fire-about-header-img img {
   width: 100%;
   height: 335px;
 }
 
-/* line 30, ../sass/about.scss */
+/* line 33, ../sass/about.scss */
 .fire-about-header-container {
   width: 1202px;
   height: 335px;
@@ -486,7 +491,7 @@ footer p.footer-copyright {
   margin-top: 41px;
   position: relative;
 }
-/* line 36, ../sass/about.scss */
+/* line 39, ../sass/about.scss */
 .fire-about-header-container .aboutfire {
   top: 224px;
   left: 238px;
@@ -497,20 +502,20 @@ footer p.footer-copyright {
   z-index: 2;
 }
 
-/* line 48, ../sass/about.scss */
+/* line 51, ../sass/about.scss */
 .fire-about-container {
   width: 100%;
   min-width: 1202px;
   margin: auto auto;
 }
-/* line 53, ../sass/about.scss */
+/* line 56, ../sass/about.scss */
 .fire-about-dowhat {
   width: 100%;
   height: 385px;
   background: #ffffff;
   overflow: hidden;
 }
-/* line 58, ../sass/about.scss */
+/* line 61, ../sass/about.scss */
 .fire-about-dowhat .fire-about-dowhat-logo {
   width: 302px;
   height: 58px;
@@ -518,27 +523,27 @@ footer p.footer-copyright {
   margin-top: 67px;
   background: url("../images/about/fire-about-dowhat-logo.png") no-repeat;
 }
-/* line 65, ../sass/about.scss */
+/* line 68, ../sass/about.scss */
 .fire-about-dowhat .fire-about-dowhat-font {
   width: 800px;
   margin: auto auto;
   margin-top: 65px;
 }
-/* line 69, ../sass/about.scss */
+/* line 72, ../sass/about.scss */
 .fire-about-dowhat .fire-about-dowhat-font p {
   color: #2e2e2e;
   font: 18px/28px "Microsoft Yahei", "Simsun", Arial, monospace, monospace;
   text-align: center;
 }
 
-/* line 76, ../sass/about.scss */
+/* line 79, ../sass/about.scss */
 .fire-about-it {
   width: 100%;
   height: 685px;
   background: #efefef;
   overflow: hidden;
 }
-/* line 81, ../sass/about.scss */
+/* line 84, ../sass/about.scss */
 .fire-about-it .fire-about-it-logo {
   width: 302px;
   height: 58px;
@@ -546,39 +551,39 @@ footer p.footer-copyright {
   margin-top: 67px;
   background: url("../images/about/fire-about-it-logo.png") no-repeat;
 }
-/* line 88, ../sass/about.scss */
+/* line 91, ../sass/about.scss */
 .fire-about-it .fire-about-it-font {
   width: 1000px;
   margin: auto auto;
   margin-top: 89px;
 }
-/* line 92, ../sass/about.scss */
+/* line 95, ../sass/about.scss */
 .fire-about-it .fire-about-it-font p {
   color: #2e2e2e;
   font: 18px/28px "Microsoft Yahei", "Simsun", Arial, monospace, monospace;
   text-align: center;
 }
 
-/* line 99, ../sass/about.scss */
+/* line 102, ../sass/about.scss */
 .fire-about-sense {
   width: 100%;
   height: 527px;
   background: #e54120;
   overflow: hidden;
 }
-/* line 104, ../sass/about.scss */
+/* line 107, ../sass/about.scss */
 .fire-about-sense h2 {
   margin-top: 76px;
   color: #ffffff;
   font: 30px/1em "Microsoft Yahei", "Simsun", Arial, monospace, monospace;
   text-align: center;
 }
-/* line 110, ../sass/about.scss */
+/* line 113, ../sass/about.scss */
 .fire-about-sense .fire-about-sense-center {
   width: 689px;
   margin: auto auto;
 }
-/* line 113, ../sass/about.scss */
+/* line 116, ../sass/about.scss */
 .fire-about-sense .fire-about-sense-center ul {
   width: 906px;
   margin-left: -217px;
@@ -591,40 +596,40 @@ footer p.footer-copyright {
   content: "";
   display: table;
 }
-/* line 117, ../sass/about.scss */
+/* line 120, ../sass/about.scss */
 .fire-about-sense .fire-about-sense-center ul li {
   float: left;
   width: 85px;
   margin-top: 100px;
   margin-left: 217px;
 }
-/* line 123, ../sass/about.scss */
+/* line 126, ../sass/about.scss */
 .fire-about-sense .fire-about-sense-center ul li.healthy .icon, .fire-about-sense .fire-about-sense-center ul li.passion .icon, .fire-about-sense .fire-about-sense-center ul li.dream .icon {
   width: 85px;
   height: 62px;
   background: url("../images/about/guanyulieyan_ico_healthy.png") no-repeat;
   background-size: 85px 62px;
 }
-/* line 129, ../sass/about.scss */
+/* line 132, ../sass/about.scss */
 .fire-about-sense .fire-about-sense-center ul li.healthy .chinese, .fire-about-sense .fire-about-sense-center ul li.passion .chinese, .fire-about-sense .fire-about-sense-center ul li.dream .chinese {
   margin-top: 57px;
   color: #ffffff;
   font: 24px/1em "Microsoft Yahei", "Simsun", Arial, monospace, monospace;
   text-align: center;
 }
-/* line 135, ../sass/about.scss */
+/* line 138, ../sass/about.scss */
 .fire-about-sense .fire-about-sense-center ul li.healthy .english, .fire-about-sense .fire-about-sense-center ul li.passion .english, .fire-about-sense .fire-about-sense-center ul li.dream .english {
   margin-top: 14px;
   color: #f2b7ab;
   font: 18px/1em "Microsoft Yahei", "Simsun", Arial, monospace, monospace;
   text-align: center;
 }
-/* line 144, ../sass/about.scss */
+/* line 147, ../sass/about.scss */
 .fire-about-sense .fire-about-sense-center ul li.passion .icon {
   background: url("../images/about/guanyulieyan_ico_passion.png") no-repeat;
   background-size: 85px 62px;
 }
-/* line 151, ../sass/about.scss */
+/* line 154, ../sass/about.scss */
 .fire-about-sense .fire-about-sense-center ul li.dream .icon {
   background: url("../images/about/guanyulieyan_ico_dream.png") no-repeat;
   background-size: 85px 62px;

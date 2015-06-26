@@ -8,6 +8,9 @@
 @import "normalize","common","mixin","variable";
 @import "header","footer","icon","backtop";
 
+body{
+	overflow-x:hidden;
+}
 .fire-contact-header{
 	width:100%;
 	min-width:1202px;

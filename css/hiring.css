@@ -456,6 +456,11 @@ footer p.footer-copyright {
 }
 
 /* line 11, ../sass/hiring.scss */
+body {
+  overflow-x: hidden;
+}
+
+/* line 14, ../sass/hiring.scss */
 .fire-hiring-header {
   width: 100%;
   min-width: 1202px;
@@ -464,20 +469,20 @@ footer p.footer-copyright {
   position: relative;
   overflow: hidden;
 }
-/* line 19, ../sass/hiring.scss */
+/* line 22, ../sass/hiring.scss */
 .fire-hiring-header-img {
   width: 100%;
   margin-top: 41px;
   position: absolute;
   z-index: -2;
 }
-/* line 24, ../sass/hiring.scss */
+/* line 27, ../sass/hiring.scss */
 .fire-hiring-header-img img {
   width: 100%;
   height: 335px;
 }
 
-/* line 29, ../sass/hiring.scss */
+/* line 32, ../sass/hiring.scss */
 .fire-hiring-header-container {
   width: 1202px;
   height: 335px;
@@ -485,7 +490,7 @@ footer p.footer-copyright {
   margin-top: 41px;
   position: relative;
 }
-/* line 35, ../sass/hiring.scss */
+/* line 38, ../sass/hiring.scss */
 .fire-hiring-header-container .iwantyou {
   top: 224px;
   left: 238px;
@@ -496,32 +501,32 @@ footer p.footer-copyright {
   z-index: 2;
 }
 
-/* line 48, ../sass/hiring.scss */
+/* line 51, ../sass/hiring.scss */
 .fire-container {
   width: 100%;
   min-width: 1202px;
   margin: auto auto;
 }
-/* line 53, ../sass/hiring.scss */
+/* line 56, ../sass/hiring.scss */
 .fire-hiring-detail {
   width: 100%;
   height: 463px;
   background: #ffffff;
   overflow: hidden;
 }
-/* line 58, ../sass/hiring.scss */
+/* line 61, ../sass/hiring.scss */
 .fire-hiring-detail h2 {
   margin-top: 58px;
   color: #232323;
   font: 24px/1em "Microsoft Yahei", "Simsun", Arial, monospace, monospace;
   text-align: center;
 }
-/* line 64, ../sass/hiring.scss */
+/* line 67, ../sass/hiring.scss */
 .fire-hiring-detail .fire-hiring-detail-center {
   width: 1089px;
   margin: auto auto;
 }
-/* line 67, ../sass/hiring.scss */
+/* line 70, ../sass/hiring.scss */
 .fire-hiring-detail .fire-hiring-detail-center ul {
   width: 1172px;
   margin-left: -83px;
@@ -534,14 +539,14 @@ footer p.footer-copyright {
   content: "";
   display: table;
 }
-/* line 71, ../sass/hiring.scss */
+/* line 74, ../sass/hiring.scss */
 .fire-hiring-detail .fire-hiring-detail-center ul li {
   float: left;
   width: 210px;
   margin-top: 80px;
   margin-left: 83px;
 }
-/* line 76, ../sass/hiring.scss */
+/* line 79, ../sass/hiring.scss */
 .fire-hiring-detail .fire-hiring-detail-center ul li .icon {
   width: 63px;
   height: 50px;
@@ -549,38 +554,38 @@ footer p.footer-copyright {
   background-size: 63px 50px;
   margin: auto auto;
 }
-/* line 83, ../sass/hiring.scss */
+/* line 86, ../sass/hiring.scss */
 .fire-hiring-detail .fire-hiring-detail-center ul li .chinese {
   margin-top: 33px;
   color: #232323;
   font: 18px/1em "Microsoft Yahei", "Simsun", Arial, monospace, monospace;
   text-align: center;
 }
-/* line 89, ../sass/hiring.scss */
+/* line 92, ../sass/hiring.scss */
 .fire-hiring-detail .fire-hiring-detail-center ul li .description {
   margin-top: 22px;
 }
-/* line 91, ../sass/hiring.scss */
+/* line 94, ../sass/hiring.scss */
 .fire-hiring-detail .fire-hiring-detail-center ul li .description p {
   color: #969696;
   font: 12px/20px "Microsoft Yahei", "Simsun", Arial, monospace, monospace;
   text-align: center;
 }
-/* line 98, ../sass/hiring.scss */
+/* line 101, ../sass/hiring.scss */
 .fire-hiring-detail .fire-hiring-detail-center ul li.second .icon {
   width: 63px;
   height: 50px;
   background: url("../images/hiring/ico2.png") no-repeat;
   background-size: 63px 50px;
 }
-/* line 106, ../sass/hiring.scss */
+/* line 109, ../sass/hiring.scss */
 .fire-hiring-detail .fire-hiring-detail-center ul li.third .icon {
   width: 63px;
   height: 50px;
   background: url("../images/hiring/ico3.png") no-repeat;
   background-size: 63px 50px;
 }
-/* line 115, ../sass/hiring.scss */
+/* line 118, ../sass/hiring.scss */
 .fire-hiring-detail .fire-hiring-detail-center ul li.fourth .icon {
   width: 63px;
   height: 50px;
@@ -588,14 +593,14 @@ footer p.footer-copyright {
   background-size: 63px 50px;
 }
 
-/* line 127, ../sass/hiring.scss */
+/* line 130, ../sass/hiring.scss */
 .fire-hiring-workspace {
   width: 100%;
   height: 1091px;
   background: #efefef;
   overflow: hidden;
 }
-/* line 132, ../sass/hiring.scss */
+/* line 135, ../sass/hiring.scss */
 .fire-hiring-workspace .hiring-workspace-logo {
   width: 302px;
   height: 58px;
@@ -603,7 +608,7 @@ footer p.footer-copyright {
   margin-top: 67px;
   background: url("../images/hiring/hiring-workspace-logo.png") no-repeat;
 }
-/* line 139, ../sass/hiring.scss */
+/* line 142, ../sass/hiring.scss */
 .fire-hiring-workspace img {
   width: 799px;
   height: 798px;
@@ -612,7 +617,7 @@ footer p.footer-copyright {
   display: block;
 }
 
-/* line 148, ../sass/hiring.scss */
+/* line 151, ../sass/hiring.scss */
 .fire-hiring-list {
   width: 100%;
   height: 874px;
@@ -620,7 +625,7 @@ footer p.footer-copyright {
   border-bottom: 46px solid #e54120;
   overflow: hidden;
 }
-/* line 154, ../sass/hiring.scss */
+/* line 157, ../sass/hiring.scss */
 .fire-hiring-list .hiring-list-logo {
   width: 302px;
   height: 58px;
@@ -628,13 +633,13 @@ footer p.footer-copyright {
   margin-top: 79px;
   background: url("../images/hiring/hiring-list-logo.png") no-repeat;
 }
-/* line 161, ../sass/hiring.scss */
+/* line 164, ../sass/hiring.scss */
 .fire-hiring-list .fire-hiring-list-container {
   width: 1402px;
   margin: auto auto;
   margin-top: 83px;
 }
-/* line 165, ../sass/hiring.scss */
+/* line 168, ../sass/hiring.scss */
 .fire-hiring-list .fire-hiring-list-container .fire-hiring-list-group {
   width: 80%;
   margin: auto auto;
@@ -647,25 +652,25 @@ footer p.footer-copyright {
   content: "";
   display: table;
 }
-/* line 169, ../sass/hiring.scss */
+/* line 172, ../sass/hiring.scss */
 .fire-hiring-list .fire-hiring-list-container .fire-hiring-list-group ul {
   float: left;
   width: 130px;
   margin-left: 10px;
 }
-/* line 173, ../sass/hiring.scss */
+/* line 176, ../sass/hiring.scss */
 .fire-hiring-list .fire-hiring-list-container .fire-hiring-list-group ul li {
   height: 16px;
   padding: 15px 14px;
   border-bottom: 1px solid #d9d9d9;
 }
-/* line 177, ../sass/hiring.scss */
+/* line 180, ../sass/hiring.scss */
 .fire-hiring-list .fire-hiring-list-container .fire-hiring-list-group ul li a {
   float: left;
   color: #909090;
   font: 14px/16px "Microsoft Yahei", "Simsun", Arial, monospace, monospace;
 }
-/* line 182, ../sass/hiring.scss */
+/* line 185, ../sass/hiring.scss */
 .fire-hiring-list .fire-hiring-list-container .fire-hiring-list-group ul li .icon {
   width: 16px;
   height: 16px;
@@ -673,28 +678,28 @@ footer p.footer-copyright {
   background: url("../images/hiring/zhaopin_btn.png") no-repeat;
   background-size: 16px 16px;
 }
-/* line 190, ../sass/hiring.scss */
+/* line 193, ../sass/hiring.scss */
 .fire-hiring-list .fire-hiring-list-container .fire-hiring-list-group ul li.active a {
   color: #e54120;
 }
-/* line 193, ../sass/hiring.scss */
+/* line 196, ../sass/hiring.scss */
 .fire-hiring-list .fire-hiring-list-container .fire-hiring-list-group ul li.active .icon {
   background: url("../images/hiring/zhaopin_btn_active.png") no-repeat;
   background-size: 16px 16px;
 }
-/* line 200, ../sass/hiring.scss */
+/* line 203, ../sass/hiring.scss */
 .fire-hiring-list .fire-hiring-list-container .fire-hiring-list-group .detail {
   float: left;
   width: 72%;
   margin-left: 113px;
 }
-/* line 204, ../sass/hiring.scss */
+/* line 207, ../sass/hiring.scss */
 .fire-hiring-list .fire-hiring-list-container .fire-hiring-list-group .detail h3 {
   color: #3d3d3d;
   font: 14px/1em "Microsoft Yahei", "Simsun", Arial, monospace, monospace;
   text-align: left;
 }
-/* line 209, ../sass/hiring.scss */
+/* line 212, ../sass/hiring.scss */
 .fire-hiring-list .fire-hiring-list-container .fire-hiring-list-group .detail .title {
   margin-top: 19px;
   padding: 7px 0px;
@@ -703,25 +708,25 @@ footer p.footer-copyright {
   font: 14px/1em "Microsoft Yahei", "Simsun", Arial, monospace, monospace;
   background: #e8e8e8;
 }
-/* line 217, ../sass/hiring.scss */
+/* line 220, ../sass/hiring.scss */
 .fire-hiring-list .fire-hiring-list-container .fire-hiring-list-group .detail .content {
   margin-top: 10px;
 }
-/* line 219, ../sass/hiring.scss */
+/* line 222, ../sass/hiring.scss */
 .fire-hiring-list .fire-hiring-list-container .fire-hiring-list-group .detail .content p {
   line-height: 30px;
 }
-/* line 221, ../sass/hiring.scss */
+/* line 224, ../sass/hiring.scss */
 .fire-hiring-list .fire-hiring-list-container .fire-hiring-list-group .detail .content p span {
   color: #3d3d3d;
   font: 14px/1em "Microsoft Yahei", "Simsun", Arial, monospace, monospace;
 }
-/* line 224, ../sass/hiring.scss */
+/* line 227, ../sass/hiring.scss */
 .fire-hiring-list .fire-hiring-list-container .fire-hiring-list-group .detail .content p span font {
   color: #6f6f6f;
   font: 14px/1em "Microsoft Yahei", "Simsun", Arial, monospace, monospace;
 }
-/* line 229, ../sass/hiring.scss */
+/* line 232, ../sass/hiring.scss */
 .fire-hiring-list .fire-hiring-list-container .fire-hiring-list-group .detail .content p font {
   color: #6f6f6f;
   font: 14px/1em "Microsoft Yahei", "Simsun", Arial, monospace, monospace;

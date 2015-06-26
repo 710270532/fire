@@ -419,7 +419,7 @@ p, h1, h2, h3, h4, h5 {
 /* line 98, ../sass/_carousel.scss */
 .modern {
   top: 289px;
-  left: 322px;
+  left: 218px;
   width: 575px;
   height: 108px;
   background: url("../images/index/hp_slogan.png") no-repeat;
@@ -586,27 +586,28 @@ footer p.footer-copyright {
 /* line 11, ../sass/index.scss */
 body {
   background: #ffffff;
+  overflow-x: hidden;
 }
 
-/* line 14, ../sass/index.scss */
+/* line 15, ../sass/index.scss */
 .ui-carousel {
   height: 438px;
   margin-top: 41px;
 }
 
-/* line 18, ../sass/index.scss */
+/* line 19, ../sass/index.scss */
 .fire-container {
   width: 100%;
   min-width: 1202px;
   margin: auto auto;
 }
-/* line 23, ../sass/index.scss */
+/* line 24, ../sass/index.scss */
 .fire-about {
   width: 100%;
   height: 390px;
   background: #ffffff;
 }
-/* line 28, ../sass/index.scss */
+/* line 29, ../sass/index.scss */
 .fire-about-container {
   width: 1202px;
   margin: auto auto;
@@ -619,29 +620,29 @@ body {
   content: "";
   display: table;
 }
-/* line 32, ../sass/index.scss */
+/* line 33, ../sass/index.scss */
 .fire-about-container .fire-about-font {
   float: left;
   width: 435px;
   margin-top: 62px;
   margin-left: 139px;
 }
-/* line 37, ../sass/index.scss */
+/* line 38, ../sass/index.scss */
 .fire-about-container .fire-about-font .about {
   height: 114px;
   margin-top: -7px;
 }
-/* line 40, ../sass/index.scss */
+/* line 41, ../sass/index.scss */
 .fire-about-container .fire-about-font .about h2 {
   color: #060606;
   font: 24px/1em "Microsoft Yahei", "Simsun", Arial, monospace, monospace;
   margin-bottom: 13px;
 }
-/* line 45, ../sass/index.scss */
+/* line 46, ../sass/index.scss */
 .fire-about-container .fire-about-font .about p {
   font: 14px/2em "Microsoft Yahei", "Simsun", Arial, monospace, monospace;
 }
-/* line 49, ../sass/index.scss */
+/* line 50, ../sass/index.scss */
 .fire-about-container .fire-about-font .dowhat {
   margin-top: 25px;
   *zoom: 1;
@@ -653,35 +654,35 @@ body {
   content: "";
   display: table;
 }
-/* line 52, ../sass/index.scss */
+/* line 53, ../sass/index.scss */
 .fire-about-container .fire-about-font .dowhat .dowhat-color {
   float: left;
   width: 5px;
   height: 61px;
   background: #e54120;
 }
-/* line 58, ../sass/index.scss */
+/* line 59, ../sass/index.scss */
 .fire-about-container .fire-about-font .dowhat .dowhat-font {
   height: 77px;
   margin-top: -7px;
 }
-/* line 61, ../sass/index.scss */
+/* line 62, ../sass/index.scss */
 .fire-about-container .fire-about-font .dowhat .dowhat-font p {
   margin-left: 16px;
   font: 14px/2em "Microsoft Yahei", "Simsun", Arial, monospace, monospace;
 }
-/* line 67, ../sass/index.scss */
+/* line 68, ../sass/index.scss */
 .fire-about-container .fire-about-font .detail {
   width: 154px;
   height: 41px;
   margin-top: 25px;
   background: url("../images/index/detail.png") no-repeat;
 }
-/* line 72, ../sass/index.scss */
+/* line 73, ../sass/index.scss */
 .fire-about-container .fire-about-font .detail:hover {
   background: url("../images/index/detail-hover.png") no-repeat;
 }
-/* line 77, ../sass/index.scss */
+/* line 78, ../sass/index.scss */
 .fire-about-container .fire-about-img {
   float: left;
   width: 428px;
@@ -691,21 +692,21 @@ body {
   background: url("../images/index/homepage_pic00.png") no-repeat;
 }
 
-/* line 88, ../sass/index.scss */
+/* line 89, ../sass/index.scss */
 .fire-product {
   width: 100%;
   height: 404px;
   background: url("../images/index/product_background.png") no-repeat;
   background-size: 100% 404px;
 }
-/* line 93, ../sass/index.scss */
+/* line 94, ../sass/index.scss */
 .fire-product .fire-product-container {
   width: 942px;
   margin: auto auto;
 }
-/* line 96, ../sass/index.scss */
+/* line 97, ../sass/index.scss */
 .fire-product .fire-product-container ul {
-  margin-left: -38px;
+  margin-left: -34px;
   *zoom: 1;
   clear: both;
   overflow: hidden;
@@ -715,7 +716,7 @@ body {
   content: "";
   display: table;
 }
-/* line 99, ../sass/index.scss */
+/* line 100, ../sass/index.scss */
 .fire-product .fire-product-container ul li {
   float: left;
   width: 286px;
@@ -724,32 +725,47 @@ body {
   margin-left: 38px;
   background: #ffffff;
 }
-/* line 106, ../sass/index.scss */
-.fire-product .fire-product-container ul li.active {
+/* line 107, ../sass/index.scss */
+.fire-product .fire-product-container ul li:hover {
+  height: 262px;
   margin-top: 64px;
+  margin-left: 34px;
   border: 4px solid #ffffff;
+  border-bottom: 0px;
 }
-/* line 110, ../sass/index.scss */
+/* line 113, ../sass/index.scss */
+.fire-product .fire-product-container ul li:hover > .border-bottom {
+  width: 294px;
+  margin-left: -4px;
+  border-bottom: 7px solid #e54120;
+}
+/* line 119, ../sass/index.scss */
+.fire-product .fire-product-container ul li:hover + li {
+  margin-left: 34px;
+}
+/* line 123, ../sass/index.scss */
 .fire-product .fire-product-container ul li img {
   width: 100%;
   height: 174px;
+  vertical-align: text-bottom;
 }
-/* line 114, ../sass/index.scss */
+/* line 128, ../sass/index.scss */
 .fire-product .fire-product-container ul li .item {
+  height: 81px;
   padding: 0px 12px;
 }
-/* line 116, ../sass/index.scss */
+/* line 131, ../sass/index.scss */
 .fire-product .fire-product-container ul li .item h3 {
   color: #c54120;
   font: 14px/2em "Microsoft Yahei", "Simsun", Arial, monospace, monospace;
 }
-/* line 120, ../sass/index.scss */
+/* line 135, ../sass/index.scss */
 .fire-product .fire-product-container ul li .item p {
   color: #3d3d3d;
   font: 10px/17px "Microsoft Yahei", "Simsun", Arial, monospace, monospace;
 }
 
-/* line 129, ../sass/index.scss */
+/* line 144, ../sass/index.scss */
 .fire-hiring {
   width: 100%;
   height: 470px;
@@ -757,7 +773,7 @@ body {
   border-top: 1px solid #ffffff;
   overflow: hidden;
 }
-/* line 135, ../sass/index.scss */
+/* line 150, ../sass/index.scss */
 .fire-hiring .hiring-logo {
   width: 302px;
   height: 58px;
@@ -765,15 +781,16 @@ body {
   margin-top: 59px;
   background: url("../images/index/hiring-logo.png") no-repeat;
 }
-/* line 142, ../sass/index.scss */
+/* line 157, ../sass/index.scss */
 .fire-hiring .hiring-deatil {
-  width: 1020px;
+  width: 1060px;
   margin: auto auto;
+  overflow: hidden;
 }
-/* line 145, ../sass/index.scss */
+/* line 161, ../sass/index.scss */
 .fire-hiring .hiring-deatil ul {
   margin-top: 87px;
-  margin-left: -44px;
+  margin-left: -1px;
   *zoom: 1;
   clear: both;
   overflow: hidden;
@@ -783,19 +800,21 @@ body {
   content: "";
   display: table;
 }
-/* line 150, ../sass/index.scss */
+/* line 165, ../sass/index.scss */
 .fire-hiring .hiring-deatil ul li {
   float: left;
   width: 176px;
-  margin: auto 44px;
+  height: 155px;
+  padding: 0px 44px;
+  border-left: 1px solid #e54120;
 }
-/* line 154, ../sass/index.scss */
+/* line 171, ../sass/index.scss */
 .fire-hiring .hiring-deatil ul li h3 {
   color: #e54120;
   font: 18px/1em "Microsoft Yahei", "Simsun", Arial, monospace, monospace;
   text-align: center;
 }
-/* line 159, ../sass/index.scss */
+/* line 176, ../sass/index.scss */
 .fire-hiring .hiring-deatil ul li p {
   margin-top: 23px;
   color: #3d3d3d;

@@ -474,6 +474,11 @@ footer p.footer-copyright {
 }
 
 /* line 11, ../sass/contact.scss */
+body {
+  overflow-x: hidden;
+}
+
+/* line 14, ../sass/contact.scss */
 .fire-contact-header {
   width: 100%;
   min-width: 1202px;
@@ -482,27 +487,27 @@ footer p.footer-copyright {
   position: relative;
   overflow: hidden;
 }
-/* line 19, ../sass/contact.scss */
+/* line 22, ../sass/contact.scss */
 .fire-contact-header-img {
   width: 100%;
   margin-top: 41px;
   position: absolute;
   z-index: -2;
 }
-/* line 24, ../sass/contact.scss */
+/* line 27, ../sass/contact.scss */
 .fire-contact-header-img img {
   width: 100%;
   height: 368px;
 }
 
-/* line 29, ../sass/contact.scss */
+/* line 32, ../sass/contact.scss */
 .fire-contact-header-container {
   width: 1202px;
   margin: auto auto;
   margin-top: 41px;
   position: relative;
 }
-/* line 34, ../sass/contact.scss */
+/* line 37, ../sass/contact.scss */
 .fire-contact-header-container .contactus {
   top: 287px;
   left: 808px;
@@ -513,13 +518,13 @@ footer p.footer-copyright {
   z-index: 2;
 }
 
-/* line 46, ../sass/contact.scss */
+/* line 49, ../sass/contact.scss */
 .fire-contact-container {
   width: 100%;
   min-width: 1202px;
   margin: auto auto;
 }
-/* line 51, ../sass/contact.scss */
+/* line 54, ../sass/contact.scss */
 .fire-contact-address {
   width: 1202px;
   height: 304px;
@@ -527,21 +532,21 @@ footer p.footer-copyright {
   margin: auto auto;
   overflow: hidden;
 }
-/* line 57, ../sass/contact.scss */
+/* line 60, ../sass/contact.scss */
 .fire-contact-address .address-group {
   margin-top: 86px;
   margin-left: 873px;
 }
-/* line 60, ../sass/contact.scss */
+/* line 63, ../sass/contact.scss */
 .fire-contact-address .address-group h3 {
   color: #232323;
   font: 18px/1em "Microsoft Yahei", "Simsun", Arial, monospace, monospace;
 }
-/* line 64, ../sass/contact.scss */
+/* line 67, ../sass/contact.scss */
 .fire-contact-address .address-group ul {
   margin-top: 22px;
 }
-/* line 66, ../sass/contact.scss */
+/* line 69, ../sass/contact.scss */
 .fire-contact-address .address-group ul li {
   *zoom: 1;
   clear: both;
@@ -552,7 +557,7 @@ footer p.footer-copyright {
   content: "";
   display: table;
 }
-/* line 68, ../sass/contact.scss */
+/* line 71, ../sass/contact.scss */
 .fire-contact-address .address-group ul li span {
   float: left;
   width: 15px;
@@ -560,19 +565,19 @@ footer p.footer-copyright {
   margin-top: 4px;
   display: block;
 }
-/* line 75, ../sass/contact.scss */
+/* line 78, ../sass/contact.scss */
 .fire-contact-address .address-group ul li div {
   float: left;
   margin-left: 18px;
   color: #232323;
   font: 14px/30px "Microsoft Yahei", "Simsun", Arial, monospace, monospace;
 }
-/* line 80, ../sass/contact.scss */
+/* line 83, ../sass/contact.scss */
 .fire-contact-address .address-group ul li div.red {
   color: #e54120;
 }
 
-/* line 88, ../sass/contact.scss */
+/* line 91, ../sass/contact.scss */
 #map-container {
   width: 100%;
   margin: auto auto;
