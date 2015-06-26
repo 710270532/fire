@@ -6,7 +6,7 @@
  */
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 /*! normalize.css v3.0.0 | HTML5 Display Definitions | MIT License | git.io/normalize */
-/* line 9, E:/ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
+/* line 9, ../../../../../../../ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
 article,
 aside,
 details,
@@ -22,7 +22,7 @@ summary {
   display: block;
 }
 
-/* line 29, E:/ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
+/* line 29, ../../../../../../../ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
 audio,
 canvas,
 progress,
@@ -31,78 +31,78 @@ video {
   vertical-align: baseline;
 }
 
-/* line 40, E:/ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
+/* line 40, ../../../../../../../ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
 }
 
-/* line 47, E:/ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
+/* line 47, ../../../../../../../ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
 [hidden],
 template {
   display: none;
 }
 
 /*! normalize.css v3.0.0 | Base | MIT License | git.io/normalize */
-/* line 11, E:/ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_base.scss */
+/* line 11, ../../../../../../../ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_base.scss */
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
 
-/* line 19, E:/ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_base.scss */
+/* line 19, ../../../../../../../ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_base.scss */
 body {
   margin: 0;
 }
 
 /*! normalize.css v3.0.0 | Links | MIT License | git.io/normalize */
-/* line 9, E:/ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_links.scss */
+/* line 9, ../../../../../../../ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_links.scss */
 a {
   background: transparent;
 }
 
-/* line 15, E:/ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_links.scss */
+/* line 15, ../../../../../../../ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_links.scss */
 a:active,
 a:hover {
   outline: 0;
 }
 
 /*! normalize.css v3.0.0 | Typography | MIT License | git.io/normalize */
-/* line 9, E:/ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+/* line 9, ../../../../../../../ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
 
-/* line 15, E:/ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+/* line 15, ../../../../../../../ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
 b,
 strong {
   font-weight: bold;
 }
 
-/* line 22, E:/ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+/* line 22, ../../../../../../../ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
 dfn {
   font-style: italic;
 }
 
-/* line 29, E:/ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+/* line 29, ../../../../../../../ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
 
-/* line 36, E:/ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+/* line 36, ../../../../../../../ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
 mark {
   background: #ff0;
   color: #000;
 }
 
-/* line 43, E:/ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+/* line 43, ../../../../../../../ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
 small {
   font-size: 80%;
 }
 
-/* line 49, E:/ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+/* line 49, ../../../../../../../ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
 sub,
 sup {
   font-size: 75%;
@@ -111,46 +111,46 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 57, E:/ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+/* line 57, ../../../../../../../ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 61, E:/ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+/* line 61, ../../../../../../../ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
 sub {
   bottom: -0.25em;
 }
 
 /*! normalize.css v3.0.0 | Embedded Content | MIT License | git.io/normalize */
-/* line 9, E:/ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_embeds.scss */
+/* line 9, ../../../../../../../ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_embeds.scss */
 img {
   border: 0;
 }
 
-/* line 15, E:/ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_embeds.scss */
+/* line 15, ../../../../../../../ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_embeds.scss */
 svg:not(:root) {
   overflow: hidden;
 }
 
 /*! normalize.css v3.0.0 | Figures | MIT License | git.io/normalize */
-/* line 9, E:/ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_groups.scss */
+/* line 9, ../../../../../../../ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_groups.scss */
 figure {
   margin: 1em 40px;
 }
 
-/* line 15, E:/ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_groups.scss */
+/* line 15, ../../../../../../../ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_groups.scss */
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0;
 }
 
-/* line 23, E:/ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_groups.scss */
+/* line 23, ../../../../../../../ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_groups.scss */
 pre {
   overflow: auto;
 }
 
-/* line 29, E:/ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_groups.scss */
+/* line 29, ../../../../../../../ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_groups.scss */
 code,
 kbd,
 pre,
@@ -160,7 +160,7 @@ samp {
 }
 
 /*! normalize.css v3.0.0 | Forms | MIT License | git.io/normalize */
-/* line 15, E:/ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+/* line 15, ../../../../../../../ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
 button,
 input,
 optgroup,
@@ -171,18 +171,18 @@ textarea {
   margin: 0;
 }
 
-/* line 27, E:/ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+/* line 27, ../../../../../../../ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
 button {
   overflow: visible;
 }
 
-/* line 36, E:/ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+/* line 36, ../../../../../../../ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
 button,
 select {
   text-transform: none;
 }
 
-/* line 47, E:/ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+/* line 47, ../../../../../../../ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -191,38 +191,38 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-/* line 57, E:/ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+/* line 57, ../../../../../../../ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
 }
 
-/* line 64, E:/ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+/* line 64, ../../../../../../../ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-/* line 73, E:/ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+/* line 73, ../../../../../../../ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
 input {
   line-height: normal;
 }
 
-/* line 83, E:/ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+/* line 83, ../../../../../../../ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
   padding: 0;
 }
 
-/* line 93, E:/ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+/* line 93, ../../../../../../../ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
-/* line 102, E:/ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+/* line 102, ../../../../../../../ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   -moz-box-sizing: content-box;
@@ -230,43 +230,43 @@ input[type="search"] {
   box-sizing: content-box;
 }
 
-/* line 113, E:/ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+/* line 113, ../../../../../../../ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-/* line 120, E:/ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+/* line 120, ../../../../../../../ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
 
-/* line 129, E:/ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+/* line 129, ../../../../../../../ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
 legend {
   border: 0;
   padding: 0;
 }
 
-/* line 136, E:/ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+/* line 136, ../../../../../../../ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
 textarea {
   overflow: auto;
 }
 
-/* line 143, E:/ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+/* line 143, ../../../../../../../ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
 optgroup {
   font-weight: bold;
 }
 
 /*! normalize.css v3.0.0 | Tables | MIT License | git.io/normalize */
-/* line 9, E:/ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_tables.scss */
+/* line 9, ../../../../../../../ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_tables.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 14, E:/ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_tables.scss */
+/* line 14, ../../../../../../../ruby/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_tables.scss */
 td,
 th {
   padding: 0;
@@ -326,8 +326,8 @@ header {
   position: absolute;
   z-index: 1;
   background: #000000;
-  background: rgba(0, 0, 0, 0.5);
-  filter: alpha(opacity=50);
+  background: rgba(0, 0, 0, 0.9);
+  filter: alpha(opacity=90);
 }
 
 /* line 28, ../sass/_header.scss */
@@ -456,6 +456,11 @@ footer p.footer-copyright {
 }
 
 /* line 11, ../sass/hiring.scss */
+body {
+  overflow-x: hidden;
+}
+
+/* line 14, ../sass/hiring.scss */
 .fire-hiring-header {
   width: 100%;
   min-width: 1202px;
@@ -464,20 +469,20 @@ footer p.footer-copyright {
   position: relative;
   overflow: hidden;
 }
-/* line 19, ../sass/hiring.scss */
+/* line 22, ../sass/hiring.scss */
 .fire-hiring-header-img {
   width: 100%;
   margin-top: 41px;
   position: absolute;
   z-index: -2;
 }
-/* line 24, ../sass/hiring.scss */
+/* line 27, ../sass/hiring.scss */
 .fire-hiring-header-img img {
   width: 100%;
   height: 335px;
 }
 
-/* line 29, ../sass/hiring.scss */
+/* line 32, ../sass/hiring.scss */
 .fire-hiring-header-container {
   width: 1202px;
   height: 335px;
@@ -485,7 +490,7 @@ footer p.footer-copyright {
   margin-top: 41px;
   position: relative;
 }
-/* line 35, ../sass/hiring.scss */
+/* line 38, ../sass/hiring.scss */
 .fire-hiring-header-container .iwantyou {
   top: 224px;
   left: 238px;
@@ -496,32 +501,32 @@ footer p.footer-copyright {
   z-index: 2;
 }
 
-/* line 48, ../sass/hiring.scss */
+/* line 51, ../sass/hiring.scss */
 .fire-container {
   width: 100%;
   min-width: 1202px;
   margin: auto auto;
 }
-/* line 53, ../sass/hiring.scss */
+/* line 56, ../sass/hiring.scss */
 .fire-hiring-detail {
   width: 100%;
   height: 463px;
   background: #ffffff;
   overflow: hidden;
 }
-/* line 58, ../sass/hiring.scss */
+/* line 61, ../sass/hiring.scss */
 .fire-hiring-detail h2 {
   margin-top: 58px;
   color: #232323;
   font: 24px/1em "Microsoft Yahei", "Simsun", Arial, monospace, monospace;
   text-align: center;
 }
-/* line 64, ../sass/hiring.scss */
+/* line 67, ../sass/hiring.scss */
 .fire-hiring-detail .fire-hiring-detail-center {
   width: 1089px;
   margin: auto auto;
 }
-/* line 67, ../sass/hiring.scss */
+/* line 70, ../sass/hiring.scss */
 .fire-hiring-detail .fire-hiring-detail-center ul {
   width: 1172px;
   margin-left: -83px;
@@ -534,14 +539,14 @@ footer p.footer-copyright {
   content: "";
   display: table;
 }
-/* line 71, ../sass/hiring.scss */
+/* line 74, ../sass/hiring.scss */
 .fire-hiring-detail .fire-hiring-detail-center ul li {
   float: left;
   width: 210px;
   margin-top: 80px;
   margin-left: 83px;
 }
-/* line 76, ../sass/hiring.scss */
+/* line 79, ../sass/hiring.scss */
 .fire-hiring-detail .fire-hiring-detail-center ul li .icon {
   width: 63px;
   height: 50px;
@@ -549,38 +554,38 @@ footer p.footer-copyright {
   background-size: 63px 50px;
   margin: auto auto;
 }
-/* line 83, ../sass/hiring.scss */
+/* line 86, ../sass/hiring.scss */
 .fire-hiring-detail .fire-hiring-detail-center ul li .chinese {
   margin-top: 33px;
   color: #232323;
   font: 18px/1em "Microsoft Yahei", "Simsun", Arial, monospace, monospace;
   text-align: center;
 }
-/* line 89, ../sass/hiring.scss */
+/* line 92, ../sass/hiring.scss */
 .fire-hiring-detail .fire-hiring-detail-center ul li .description {
   margin-top: 22px;
 }
-/* line 91, ../sass/hiring.scss */
+/* line 94, ../sass/hiring.scss */
 .fire-hiring-detail .fire-hiring-detail-center ul li .description p {
   color: #969696;
   font: 12px/20px "Microsoft Yahei", "Simsun", Arial, monospace, monospace;
   text-align: center;
 }
-/* line 98, ../sass/hiring.scss */
+/* line 101, ../sass/hiring.scss */
 .fire-hiring-detail .fire-hiring-detail-center ul li.second .icon {
   width: 63px;
   height: 50px;
   background: url("../images/hiring/ico2.png") no-repeat;
   background-size: 63px 50px;
 }
-/* line 106, ../sass/hiring.scss */
+/* line 109, ../sass/hiring.scss */
 .fire-hiring-detail .fire-hiring-detail-center ul li.third .icon {
   width: 63px;
   height: 50px;
   background: url("../images/hiring/ico3.png") no-repeat;
   background-size: 63px 50px;
 }
-/* line 115, ../sass/hiring.scss */
+/* line 118, ../sass/hiring.scss */
 .fire-hiring-detail .fire-hiring-detail-center ul li.fourth .icon {
   width: 63px;
   height: 50px;
@@ -588,14 +593,14 @@ footer p.footer-copyright {
   background-size: 63px 50px;
 }
 
-/* line 127, ../sass/hiring.scss */
+/* line 130, ../sass/hiring.scss */
 .fire-hiring-workspace {
   width: 100%;
   height: 1091px;
   background: #efefef;
   overflow: hidden;
 }
-/* line 132, ../sass/hiring.scss */
+/* line 135, ../sass/hiring.scss */
 .fire-hiring-workspace .hiring-workspace-logo {
   width: 302px;
   height: 58px;
@@ -603,7 +608,7 @@ footer p.footer-copyright {
   margin-top: 67px;
   background: url("../images/hiring/hiring-workspace-logo.png") no-repeat;
 }
-/* line 139, ../sass/hiring.scss */
+/* line 142, ../sass/hiring.scss */
 .fire-hiring-workspace img {
   width: 799px;
   height: 798px;
@@ -612,7 +617,7 @@ footer p.footer-copyright {
   display: block;
 }
 
-/* line 148, ../sass/hiring.scss */
+/* line 151, ../sass/hiring.scss */
 .fire-hiring-list {
   width: 100%;
   height: 874px;
@@ -620,7 +625,7 @@ footer p.footer-copyright {
   border-bottom: 46px solid #e54120;
   overflow: hidden;
 }
-/* line 154, ../sass/hiring.scss */
+/* line 157, ../sass/hiring.scss */
 .fire-hiring-list .hiring-list-logo {
   width: 302px;
   height: 58px;
@@ -628,13 +633,13 @@ footer p.footer-copyright {
   margin-top: 79px;
   background: url("../images/hiring/hiring-list-logo.png") no-repeat;
 }
-/* line 161, ../sass/hiring.scss */
+/* line 164, ../sass/hiring.scss */
 .fire-hiring-list .fire-hiring-list-container {
   width: 1402px;
   margin: auto auto;
   margin-top: 83px;
 }
-/* line 165, ../sass/hiring.scss */
+/* line 168, ../sass/hiring.scss */
 .fire-hiring-list .fire-hiring-list-container .fire-hiring-list-group {
   width: 80%;
   margin: auto auto;
@@ -647,25 +652,25 @@ footer p.footer-copyright {
   content: "";
   display: table;
 }
-/* line 169, ../sass/hiring.scss */
+/* line 172, ../sass/hiring.scss */
 .fire-hiring-list .fire-hiring-list-container .fire-hiring-list-group ul {
   float: left;
   width: 130px;
   margin-left: 10px;
 }
-/* line 173, ../sass/hiring.scss */
+/* line 176, ../sass/hiring.scss */
 .fire-hiring-list .fire-hiring-list-container .fire-hiring-list-group ul li {
   height: 16px;
   padding: 15px 14px;
   border-bottom: 1px solid #d9d9d9;
 }
-/* line 177, ../sass/hiring.scss */
+/* line 180, ../sass/hiring.scss */
 .fire-hiring-list .fire-hiring-list-container .fire-hiring-list-group ul li a {
   float: left;
   color: #909090;
   font: 14px/16px "Microsoft Yahei", "Simsun", Arial, monospace, monospace;
 }
-/* line 182, ../sass/hiring.scss */
+/* line 185, ../sass/hiring.scss */
 .fire-hiring-list .fire-hiring-list-container .fire-hiring-list-group ul li .icon {
   width: 16px;
   height: 16px;
@@ -673,28 +678,28 @@ footer p.footer-copyright {
   background: url("../images/hiring/zhaopin_btn.png") no-repeat;
   background-size: 16px 16px;
 }
-/* line 190, ../sass/hiring.scss */
+/* line 193, ../sass/hiring.scss */
 .fire-hiring-list .fire-hiring-list-container .fire-hiring-list-group ul li.active a {
   color: #e54120;
 }
-/* line 193, ../sass/hiring.scss */
+/* line 196, ../sass/hiring.scss */
 .fire-hiring-list .fire-hiring-list-container .fire-hiring-list-group ul li.active .icon {
   background: url("../images/hiring/zhaopin_btn_active.png") no-repeat;
   background-size: 16px 16px;
 }
-/* line 200, ../sass/hiring.scss */
+/* line 203, ../sass/hiring.scss */
 .fire-hiring-list .fire-hiring-list-container .fire-hiring-list-group .detail {
   float: left;
   width: 72%;
   margin-left: 113px;
 }
-/* line 204, ../sass/hiring.scss */
+/* line 207, ../sass/hiring.scss */
 .fire-hiring-list .fire-hiring-list-container .fire-hiring-list-group .detail h3 {
   color: #3d3d3d;
   font: 14px/1em "Microsoft Yahei", "Simsun", Arial, monospace, monospace;
   text-align: left;
 }
-/* line 209, ../sass/hiring.scss */
+/* line 212, ../sass/hiring.scss */
 .fire-hiring-list .fire-hiring-list-container .fire-hiring-list-group .detail .title {
   margin-top: 19px;
   padding: 7px 0px;
@@ -703,25 +708,25 @@ footer p.footer-copyright {
   font: 14px/1em "Microsoft Yahei", "Simsun", Arial, monospace, monospace;
   background: #e8e8e8;
 }
-/* line 217, ../sass/hiring.scss */
+/* line 220, ../sass/hiring.scss */
 .fire-hiring-list .fire-hiring-list-container .fire-hiring-list-group .detail .content {
   margin-top: 10px;
 }
-/* line 219, ../sass/hiring.scss */
+/* line 222, ../sass/hiring.scss */
 .fire-hiring-list .fire-hiring-list-container .fire-hiring-list-group .detail .content p {
   line-height: 30px;
 }
-/* line 221, ../sass/hiring.scss */
+/* line 224, ../sass/hiring.scss */
 .fire-hiring-list .fire-hiring-list-container .fire-hiring-list-group .detail .content p span {
   color: #3d3d3d;
   font: 14px/1em "Microsoft Yahei", "Simsun", Arial, monospace, monospace;
 }
-/* line 224, ../sass/hiring.scss */
+/* line 227, ../sass/hiring.scss */
 .fire-hiring-list .fire-hiring-list-container .fire-hiring-list-group .detail .content p span font {
   color: #6f6f6f;
   font: 14px/1em "Microsoft Yahei", "Simsun", Arial, monospace, monospace;
 }
-/* line 229, ../sass/hiring.scss */
+/* line 232, ../sass/hiring.scss */
 .fire-hiring-list .fire-hiring-list-container .fire-hiring-list-group .detail .content p font {
   color: #6f6f6f;
   font: 14px/1em "Microsoft Yahei", "Simsun", Arial, monospace, monospace;

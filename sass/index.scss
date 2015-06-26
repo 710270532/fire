@@ -10,6 +10,7 @@
 
 body{
 	background:#ffffff;
+	overflow-x:hidden;
 }
 .ui-carousel{
 	height: 378+60px;
@@ -94,7 +95,7 @@ body{
 				width: 942px;
 				margin:auto auto;
 				ul{
-					margin-left:-38px;
+					margin-left:-38+4px;
 					@include clearfix();
 					li{
 						float: left;
@@ -103,15 +104,29 @@ body{
 						margin-top: 68px;
 						margin-left: 38px;
 						background:#ffffff;
-						&.active{
+						&:hover{
+							height: 255+7px;
 							margin-top: 68-4px;
+							margin-left: 38-4px;
 							border:4px solid #ffffff;
+							border-bottom:0px;
+							& > .border-bottom{
+								width: 286+4*2px;
+								margin-left: -4px;
+								border-bottom:7px solid #e54120;
+							}
+							//调整相邻li元素的margin-left值
+							&+li{
+								margin-left: 38-4px;
+							}
 						}
 						img{
 							width: 100%;
 							height: 174px;
+							vertical-align:text-bottom;
 						}
 						.item{
+							height: 81px;
 							padding: 0px 12px;
 							h3{
 								color: #c54120;
@@ -140,17 +155,19 @@ body{
 				background:url('../images/index/hiring-logo.png') no-repeat;
 			}
 			.hiring-deatil{
-				width: 1020px;
+				width: (176+(44*2)+1)*4px;
 				margin:auto auto;
+				overflow: hidden;
 				ul{
-
 					margin-top: 87px;
-					margin-left: -44px;
+					margin-left: -1px;
 					@include clearfix();
 					li{
 						float: left;
 						width: 176px;
-						margin:auto 44px;
+						height: 155px;
+						padding :0px 44px;
+						border-left:1px solid #e54120;
 						h3{
 							color: #e54120;
 							font: 18px/1em $font-family;
