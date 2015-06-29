@@ -203,7 +203,11 @@ body{
 					.detail{
 						float:left;
 						width: 72%;
+						display: none;
 						margin-left: 113px;
+						&.active{
+							display: block;
+						}
 						h3{
 							color:#3d3d3d;
 							font:14px/1em $font-family;

@@ -1,3 +1,9 @@
 @charset "utf-8";
 
-$font-family: 'Microsoft Yahei','Simsun',Arial,monospace,monospace;
+/*
+ *网页字体考虑因素
+ *1.字体是否常见（为系统自带）。
+ *2.字体兼容windows（默认'Simsun'）与mac（' Hiragino Sans GB','Hiragino Sans GB W3'）系统。
+ *3.数字、英文（Arial,'Times New Roman'）、汉字字体按先后顺序排列。但是ie8、ie7存在使用英文字体渲染中文字体问题。
+ */
+$font-family: 'Hiragino Sans GB','Hiragino Sans GB W3','Microsoft Yahei';

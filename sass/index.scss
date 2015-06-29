@@ -54,6 +54,7 @@ body{
 								float: left;
 								width: 5px;
 								height: 61px;
+								margin-top: 4.5px;
 								background:#e54120;
 							}
 							.dowhat-font{
@@ -68,6 +69,7 @@ body{
 						.detail{
 							width: 154px;
 							height: 41px;
+							cursor:pointer;
 							margin-top: 25px;
 							background:url('../images/index/detail.png') no-repeat;
 							&:hover{
@@ -91,6 +93,7 @@ body{
 			height: 404px;
 			background:url('../images/index/product_background.png') no-repeat;
 			background-size:100% 404px;
+			
 			.fire-product-container{
 				width: 942px;
 				margin:auto auto;
@@ -152,6 +155,7 @@ body{
 				height: 58px;
 				margin:auto auto;
 				margin-top: 59px;
+				cursor:pointer;
 				background:url('../images/index/hiring-logo.png') no-repeat;
 			}
 			.hiring-deatil{

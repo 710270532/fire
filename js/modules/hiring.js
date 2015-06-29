@@ -62,8 +62,9 @@ require.config({
         }
     }
 });
-require(['js/init/backtop'],function(backtop){
+require(['js/init/backtop','js/init/tab'],function(backtop,tab){
     backtop.init();
+    tab.init();
 },function(e){
     console.log("【招聘】模块js加载失败");
 });
