@@ -18,9 +18,9 @@ require.config({
 
         'highcharts':['http://cdn.hcharts.cn/highcharts/highcharts'],
         'highstock':['http://cdn.hcharts.cn/highstock/highstock'],
-        'highcharts-themes':['http://cdn.hcharts.cn/highcharts/themes/sand-signika','http://cdn.hcharts.cn/highcharts/themes/dark-unica']
+        'highcharts-themes':['http://cdn.hcharts.cn/highcharts/themes/sand-signika','http://cdn.hcharts.cn/highcharts/themes/dark-unica'],
 
-        'gaode':'http://webapi.amap.com/maps?v=1.3&key=a731dad0b78ed28ecd8175b98e0cc9df',
+        'gaode':'http://webapi.amap.com/maps?v=1.3&key=a731dad0b78ed28ecd8175b98e0cc9df'
         
     },
     packages: [
