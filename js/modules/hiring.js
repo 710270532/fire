@@ -1,7 +1,7 @@
 require.config({
-	baseUrl:'',
+    baseUrl:'',
     paths:{
-    	'jquery':['http://cdn.bootcss.com/jquery/1.11.2/jquery.min','lib/jquery/jquery-1.9.1.min'],
+        'jquery':['http://cdn.bootcss.com/jquery/1.11.2/jquery.min','lib/jquery/jquery-1.9.1.min'],
         'jquery.ui' : ['http://code.jquery.com/ui/1.11.4/jquery-ui.min','lib/jqueryui/jquery-ui.min'],
         'bootstrap':['http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min','lib/bootstrap/bootstrap.min'],
         'laypage':['http://res.sentsin.com/lay/lib/laypage/laypage','lib/laypage/laypage'],
@@ -16,7 +16,11 @@ require.config({
         'datetimepicker':'lib/jqueryui/datetimepicker/jquery-ui-timepicker-addon',
         'jquery-ui-timepicker-zh-CN':'lib/jqueryui/datetimepicker/jquery-ui-timepicker-zh-CN',
 
-        'gaode':'http://webapi.amap.com/maps?v=1.3&key=a731dad0b78ed28ecd8175b98e0cc9df'
+        'highcharts':['http://cdn.hcharts.cn/highcharts/highcharts'],
+        'highstock':['http://cdn.hcharts.cn/highstock/highstock'],
+        'highcharts-themes':['http://cdn.hcharts.cn/highcharts/themes/sand-signika','http://cdn.hcharts.cn/highcharts/themes/dark-unica']
+
+        'gaode':'http://webapi.amap.com/maps?v=1.3&key=a731dad0b78ed28ecd8175b98e0cc9df',
         
     },
     packages: [
@@ -32,7 +36,11 @@ require.config({
         }
     ],
     shim:{
-    	'bootstrap': {
+        'highcharts-themes':{
+            deps:['highstock'],
+            exports:'highcharts-themes'
+        },
+        'bootstrap': {
             deps: ['jquery'],
             exports: 'bootstrap'
         },
