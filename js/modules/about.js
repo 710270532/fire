@@ -70,8 +70,13 @@ require.config({
         }
     }
 });
-require(['js/init/backtop'],function(backtop){
-    backtop.init();
+require(['jquery','js/init/backtop'],function($,backtop){
+    $(function(){
+        $('#backtop').backtop({
+            speed:30,
+            marginTop:200
+        });
+    });
 },function(e){
     console.log("【关于烈焰】模块js加载失败");
 });

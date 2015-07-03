@@ -70,9 +70,14 @@ require.config({
         }
     }
 });
-require(['js/init/backtop','js/init/tab'],function(backtop,tab){
-    backtop.init();
-    tab.init();
+require(['jquery','js/init/backtop','js/init/tab'],function($,backtop,tab){
+    $(function(){
+        $('#backtop').backtop({
+            speed:30,
+            marginTop:200
+        });
+        tab.init();
+    });
 },function(e){
     console.log("【招聘】模块js加载失败");
 });

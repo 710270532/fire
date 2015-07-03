@@ -1,15 +1,23 @@
-define(function(){
-	function backtop(){
-		var timer = null;
+define(['jquery'],function($){
+
+	//默认参数
+	var defaults = {
+		speed : 30,
+		marginTop : document.documentElement.clientHeight
+	};
+
+	//构造方法
+	function Backtop(element,options){
 		var stop = false;
-		var backtop = document.getElementById("backtop");
-		//可视区域高度
+		var timer = null;
+		var backtop = $(element).get(0);
 		var clientHeight = document.documentElement.clientHeight;
+		var options = this.options = $.extend({}, defaults, options);
+
 		//滚动条滚动事件
 		window.onscroll = function(){
-			//处理隐藏/显示返回顶部按钮
-			var scroll_top = document.documentElement.scrollTop || document.body.scrollTop;
-			if(scroll_top>=200){	
+			var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;//处理隐藏、显示返回顶部按钮
+			if(scrollTop>=options.marginTop){
 				backtop.style.display = 'block';
 			}else{
 				backtop.style.display = 'none';
@@ -24,20 +32,26 @@ define(function(){
 		backtop.onclick = function(){
 			timer = window.setInterval(function(){
 				stop = false;
-				var scroll_top = document.documentElement.scrollTop || document.body.scrollTop;
-				var speed = Math.floor(-scroll_top/6);
-				document.documentElement.scrollTop = document.body.scrollTop = scroll_top+speed;
-				if(scroll_top==0){
+				var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+				var speed = Math.floor(-scrollTop/6);
+				document.documentElement.scrollTop = document.body.scrollTop = scrollTop+speed;
+				if(scrollTop==0){
 					window.clearInterval(timer);
 				}
-			},30);
+			},options.speed);
 		}
 	}
-	return {
-		init:function(){
-			(function() {
-				backtop();
-			})();
+
+	//在jquery中注册
+	$.fn.extend({
+		backtop:function(options){
+			return this.each(function(){
+				new Backtop(this,options);
+			});
 		}
+	});
+	//提供构造方法
+	return {
+		init:Backtop
 	};
 });

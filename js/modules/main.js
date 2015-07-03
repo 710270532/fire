@@ -70,9 +70,14 @@ require.config({
         }
     }
 });
-require(['js/init/carousel','js/init/backtop'],function(carousel,backtop){
-    carousel.init();
-    backtop.init();
+require(['jquery','js/init/carousel','js/init/backtop'],function($,carousel,backtop){
+    $(function(){
+        carousel.init();
+        $('#backtop').backtop({
+            speed:30,
+            marginTop:200
+        });
+    });
 },function(e){
     console.log("【首页】模块js加载失败");
 });

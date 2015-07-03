@@ -70,9 +70,14 @@ require.config({
         }
     }
 });
-require(['js/init/gaode','js/init/backtop'],function(gaode,backtop){
-    gaode.init();
-    backtop.init();
+require(['jquery','js/init/gaode','js/init/backtop'],function($,gaode,backtop){
+    $(function(){
+        gaode.init();
+        $('#backtop').backtop({
+            speed:30,
+            marginTop:200
+        });
+    });
 },function(e){
     console.log("【联系我们】模块js加载失败");
 });
